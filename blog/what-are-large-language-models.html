@@ -80,7 +80,7 @@
         "name": "How do LLMs differ from traditional AI systems?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Traditional AI systems are often rule-based or use explicit algorithms. LLMs learn patterns from data and generate outputs based on probability. LLMs are more flexible and adaptable but less interpretable—it's harder to explain why they made a specific prediction."
+          "text": "Traditional AI systems are often rule-based or use explicit algorithms. LLMs learn patterns from data and generate outputs based on probability. LLMs are more flexible and adaptable but less interpretable: it's harder to explain why they made a specific prediction."
         }
       }
     ]
@@ -154,7 +154,7 @@
               <strong>Key Takeaway:</strong> LLMs are neural networks that learn patterns in language from massive text datasets. They generate text by predicting probable next words, enabling them to write essays, answer questions, translate languages, and more.
             </div>
 
-            <p>LLMs represent a paradigm shift in AI. Instead of programming specific rules, we train models on text and let them discover patterns. The result is surprising flexibility—the same model can summarize documents, write code, answer trivia, and engage in philosophical debate.</p>
+            <p>LLMs represent a paradigm shift in AI. Instead of programming specific rules, we train models on text and let them discover patterns. The result is surprising flexibility: the same model can summarize documents, write code, answer trivia, and engage in philosophical debate.</p>
           </section>
 
           <section id="how-trained">
@@ -163,18 +163,18 @@
             <h3>Step 1: Pretraining on Raw Text</h3>
             <p>The first phase involves unsupervised learning on massive text datasets. For GPT-3, this included billions of words from the internet, books, articles, and code. The model learns to predict the next word given context, refining its language understanding through this self-supervised task.</p>
 
-            <p>This is called the "language modeling" objective—given "The cat sat on the", predict "mat." Through billions of such examples, the model learns grammar, facts, reasoning, and more.</p>
+            <p>This is called the "language modeling" objective: given "The cat sat on the", predict "mat." Through billions of such examples, the model learns grammar, facts, reasoning, and more.</p>
 
             <h3>Step 2: Fine-tuning and Instruction-Following</h3>
             <p>Raw language models sometimes produce problematic outputs. Fine-tuning involves further training on curated datasets of high-quality question-answer pairs and instructions. This teaches the model to be helpful, harmless, and honest.</p>
 
             <h3>Step 3: Reinforcement Learning from Human Feedback (RLHF)</h3>
-            <p>Human evaluators rate model outputs—which responses are better, more helpful, less harmful? The model is then fine-tuned to maximize the likelihood of outputs humans rate highly. This process aligns model behavior with human preferences.</p>
+            <p>Human evaluators rate model outputs: which responses are better, more helpful, less harmful? The model is then fine-tuned to maximize the likelihood of outputs humans rate highly. This process aligns model behavior with human preferences.</p>
 
             <h3>The Transformer Architecture</h3>
-            <p>Modern LLMs use the transformer architecture, introduced in 2017. Transformers use attention mechanisms—allowing the model to focus on relevant parts of the input. If the input is "The bank executive decided to invest," the model's "bank" representation gets attention from "executive" and "invest," helping it understand context.</p>
+            <p>Modern LLMs use the transformer architecture, introduced in 2017. Transformers use attention mechanisms: allowing the model to focus on relevant parts of the input. If the input is "The bank executive decided to invest," the model's "bank" representation gets attention from "executive" and "invest," helping it understand context.</p>
 
-            <p>Transformers process entire sequences in parallel (unlike older RNNs), enabling efficient training on massive datasets. This architectural advantage is partly why transformers revolutionized deep learning.</p>
+            <p>Transformers process entire sequences in parallel (unlike older RNNs), enabling efficient training on massive datasets. This architectural advantage is partly why transformers changed deep learning.</p>
 
             <blockquote>
               "An LLM doesn't 'know' facts the way humans do. It's a probability engine that learned statistics of text. When it writes about photosynthesis, it's predicting probable text patterns, not accessing stored knowledge."
@@ -185,7 +185,7 @@
             <h2>Key LLM Models</h2>
 
             <h3>GPT Series (OpenAI)</h3>
-            <p>GPT-3, released in 2020, demonstrated impressive zero-shot learning—the model could perform tasks with minimal examples. GPT-4, released in 2023, shows improved reasoning, multimodal capability (understanding images and text), and reduced hallucinations. Each generation required more data, computation, and time.</p>
+            <p>GPT-3, released in 2020, demonstrated impressive zero-shot learning: the model could perform tasks with minimal examples. GPT-4, released in 2023, shows improved reasoning, multimodal capability (understanding images and text), and reduced hallucinations. Each generation required more data, computation, and time.</p>
 
             <h3>Claude (Anthropic)</h3>
             <p>Claude is another advanced LLM, designed with emphasis on safety and reducing harmful outputs. It demonstrates strong reasoning, coding ability, and multi-turn conversation capability.</p>
@@ -197,7 +197,7 @@
             <p>Meta released Llama, open-source language models. While potentially less powerful than GPT-4, Llama's open availability enables broader research and deployment.</p>
 
             <h3>Others</h3>
-            <p>Many organizations are building LLMs—Falcon, Mistral, Bloom, Alpaca, and others. The field is rapidly evolving with new models, better training techniques, and improved efficiency.</p>
+            <p>Many organizations are building LLMs. Falcon, Mistral, Bloom, Alpaca, and others. The field is rapidly evolving with new models, better training techniques, and improved efficiency.</p>
           </section>
 
           <section id="capabilities">
@@ -207,7 +207,7 @@
             <p>LLMs excel at generating coherent, contextually appropriate text. They can write essays, stories, code, poetry, and more. Quality varies, but state-of-the-art models produce text indistinguishable from human writing in many cases.</p>
 
             <h3>Question Answering</h3>
-            <p>LLMs can answer questions across diverse domains—science, history, cooking, programming. They synthesize information from training data to provide informative responses.</p>
+            <p>LLMs can answer questions across diverse domains: science, history, cooking, programming. They synthesize information from training data to provide informative responses.</p>
 
             <h3>Summarization</h3>
             <p>LLMs condense long documents into brief summaries, extracting key information and maintaining coherence.</p>
@@ -216,7 +216,7 @@
             <p>LLMs can translate between languages, often rivaling specialized translation systems. They handle idioms and context better than older statistical models.</p>
 
             <h3>Reasoning and Problem-Solving</h3>
-            <p>Chain-of-thought prompting—asking models to explain their reasoning step-by-step—improves performance on complex problems. Advanced models can solve math problems, debug code, and engage in logical reasoning.</p>
+            <p>Chain-of-thought prompting (asking models to explain their reasoning step-by-step) improves performance on complex problems. Advanced models can solve math problems, debug code, and engage in logical reasoning.</p>
 
             <h3>Few-Shot Learning</h3>
             <p>Given a few examples, LLMs can perform new tasks without additional training. Show it a few translation examples, and it can translate other sentences.</p>
@@ -225,7 +225,7 @@
             <p>Latest models (like GPT-4V) understand both text and images. Show it a photo of a restaurant menu, and it describes the dishes and prices.</p>
 
             <div class="key-takeaway">
-              <strong>Key Takeaway:</strong> LLMs are remarkably versatile—one model handles writing, coding, math, translation, and hundreds of other tasks. This generality is their revolutionary strength.
+              <strong>Key Takeaway:</strong> LLMs are remarkably versatile: one model handles writing, coding, math, translation, and hundreds of other tasks. This generality is their revolutionary strength.
             </div>
           </section>
 
@@ -238,7 +238,7 @@
             <p>Hallucinations are a fundamental challenge. No amount of training fully eliminates them because the model's objective is predicting text, not verifying facts.</p>
 
             <h3>Lack of True Understanding</h3>
-            <p>LLMs don't "understand" language the way humans do. They don't have beliefs, desires, or consciousness. They're sophisticated pattern-matching systems. A human understands photosynthesis—they could explain it in novel ways, apply it to new contexts, or think about its implications. LLMs generate statistically probable text about photosynthesis without true comprehension.</p>
+            <p>LLMs don't "understand" language the way humans do. They don't have beliefs, desires, or consciousness. They're sophisticated pattern-matching systems. A human understands photosynthesis: they could explain it in novel ways, apply it to new contexts, or think about its implications. LLMs generate statistically probable text about photosynthesis without true comprehension.</p>
 
             <h3>Limited Knowledge Cutoff</h3>
             <p>LLMs are trained on text up to a certain date. GPT-3's knowledge extends to early 2021. They can't access real-time information or recent events. This limits their utility for current affairs or rapidly evolving fields.</p>
@@ -247,7 +247,7 @@
             <p>LLMs are trained on internet text, which reflects societal biases. Models can perpetuate stereotypes, show gender or racial bias, or generate harmful content. Mitigating bias is an ongoing research challenge.</p>
 
             <h3>Computational Cost</h3>
-            <p>Training state-of-the-art LLMs requires massive computational resources—millions of dollars in compute and energy. This limits who can develop LLMs and raises environmental concerns.</p>
+            <p>Training state-of-the-art LLMs requires massive computational resources: millions of dollars in compute and energy. This limits who can develop LLMs and raises environmental concerns.</p>
 
             <h3>Context Length Limitations</h3>
             <p>While improving, LLMs struggle with very long documents. They might forget details from the beginning of a long input. Newer architectures (like retrieval-augmented generation) combine LLMs with memory systems to address this.</p>
@@ -272,7 +272,7 @@
             <p>Combining LLMs with symbolic reasoning systems could yield models that both generate fluent text and perform reliable logical reasoning.</p>
 
             <h3>Responsible Development</h3>
-            <p>As LLMs become more powerful, ensuring they're developed responsibly—with attention to bias, safety, privacy, and interpretability—becomes crucial. Regulatory oversight and industry standards are emerging.</p>
+            <p>As LLMs become more powerful, ensuring they're developed responsibly: with attention to bias, safety, privacy, and interpretability: becomes essential. Regulatory oversight and industry standards are emerging.</p>
           </section>
 
           <div class="ad-slot"><!-- AdSense --></div>
@@ -313,7 +313,7 @@
           <div class="faq-item">
             <button class="faq-question">How do LLMs differ from traditional AI systems?</button>
             <div class="faq-answer">
-              <p>Traditional AI systems are often rule-based or use explicit algorithms. LLMs learn patterns from data and generate outputs based on probability. LLMs are more flexible and adaptable but less interpretable—it's harder to explain why they made a specific prediction.</p>
+              <p>Traditional AI systems are often rule-based or use explicit algorithms. LLMs learn patterns from data and generate outputs based on probability. LLMs are more flexible and adaptable but less interpretable: it's harder to explain why they made a specific prediction.</p>
             </div>
           </div>
         </section>

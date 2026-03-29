@@ -164,7 +164,7 @@
             <p>A neuron receives multiple inputs. These might be raw data (pixels in an image) or outputs from previous neurons.</p>
 
             <h3>Step 2: Weight the Inputs</h3>
-            <p>Each input is multiplied by a weight. Weights indicate importance—a high weight means that input strongly influences the neuron's output. Low weights mean the input matters little. These weights are what the network learns.</p>
+            <p>Each input is multiplied by a weight. Weights indicate importance: a high weight means that input strongly influences the neuron's output. Low weights mean the input matters little. These weights are what the network learns.</p>
 
             <h3>Step 3: Sum and Add Bias</h3>
             <p>The weighted inputs are summed together. A bias term is added. The bias shifts the output threshold, allowing the neuron to output non-zero values even when all inputs are zero.</p>
@@ -184,12 +184,12 @@
             <h2>Network Architecture: Input, Hidden, and Output Layers</h2>
 
             <h3>Input Layer</h3>
-            <p>The input layer isn't actually neurons—it's just your raw data. If you're classifying images, the input layer has one node per pixel. If you're predicting house prices from features, the input layer has one node per feature (square footage, bedrooms, location, etc.).</p>
+            <p>The input layer isn't actually neurons: it's just your raw data. If you're classifying images, the input layer has one node per pixel. If you're predicting house prices from features, the input layer has one node per feature (square footage, bedrooms, location, etc.).</p>
 
             <h3>Hidden Layers</h3>
             <p>Hidden layers are where the magic happens. Each hidden layer learns increasingly abstract representations. In image recognition, the first hidden layer might detect edges, the next layer might combine edges into shapes, a deeper layer might recognize eyes and noses, and so on.</p>
 
-            <p>More hidden layers allow the network to learn more complex hierarchical representations. However, they also require more data, more computation, and are harder to train. There's no magic formula for the "right" number of layers—it depends on the problem.</p>
+            <p>More hidden layers allow the network to learn more complex hierarchical representations. However, they also require more data, more computation, and are harder to train. There's no magic formula for the "right" number of layers, it depends on the problem.</p>
 
             <h3>Output Layer</h3>
             <p>The output layer produces final predictions. For binary classification (yes/no), it has one neuron. For multi-class classification (dog, cat, bird), it has one neuron per class. For regression (predicting a number), it typically has one output neuron.</p>
@@ -201,13 +201,13 @@
 
           <section id="weights-biases">
             <h2>Weights and Biases: Learning the Parameters</h2>
-            <p>Neural networks have two types of learnable parameters: weights and biases. Understanding these is crucial to understanding how neural networks learn.</p>
+            <p>Neural networks have two types of learnable parameters: weights and biases. Understanding these is key to understanding how neural networks learn.</p>
 
             <h3>Weights: Measuring Importance</h3>
             <p>A weight indicates how much one input influences a neuron's output. Imagine a doctor diagnosing disease:</p>
             <ul>
-              <li>High blood pressure (input) gets a high weight—it's important for heart disease diagnosis</li>
-              <li>Hair color (input) gets a low weight—it's irrelevant</li>
+              <li>High blood pressure (input) gets a high weight: it's important for heart disease diagnosis</li>
+              <li>Hair color (input) gets a low weight, it's irrelevant</li>
             </ul>
             <p>Neural networks learn to set weights such that important inputs have high weights and unimportant inputs have low weights.</p>
 
@@ -215,12 +215,12 @@
             <p>A bias shifts the activation threshold. Without biases, a neuron outputs zero when all inputs are zero, which limits what the network can represent. Biases allow more flexibility.</p>
 
             <h3>The Sheer Number of Parameters</h3>
-            <p>A small neural network with 1,000 input neurons, 100 hidden neurons, and 10 output neurons has roughly 110,000 weights and 110 biases—over 110,000 parameters to learn. Large language models have billions of parameters. All of these must be carefully adjusted during training.</p>
+            <p>A small neural network with 1,000 input neurons, 100 hidden neurons, and 10 output neurons has roughly 110,000 weights and 110 biases: over 110,000 parameters to learn. Large language models have billions of parameters. All of these must be carefully adjusted during training.</p>
           </section>
 
           <section id="activation">
             <h2>Activation Functions: Introducing Non-linearity</h2>
-            <p>Activation functions are crucial because they introduce non-linearity. Without them, a neural network would just be a series of linear transformations, capable of learning only linear relationships.</p>
+            <p>Activation functions are essential because they introduce non-linearity. Without them, a neural network would just be a series of linear transformations, capable of learning only linear relationships.</p>
 
             <h3>ReLU (Rectified Linear Unit)</h3>
             <p>The most popular modern activation function. It outputs the input if positive, zero if negative. Simple, computationally efficient, and surprisingly effective.</p>
@@ -249,13 +249,13 @@
             <p>Starting from the output layer and moving backward, calculate how much each parameter (weight and bias) contributed to the error. This uses calculus (specifically, the chain rule) to compute gradients.</p>
 
             <h3>Step 4: Update Parameters</h3>
-            <p>Adjust weights and biases in the direction that reduces error. Use gradient descent: if a weight increases error, decrease it; if it decreases error, increase it. The learning rate controls how much to adjust—too high and you overshoot, too low and training is slow.</p>
+            <p>Adjust weights and biases in the direction that reduces error. Use gradient descent: if a weight increases error, decrease it; if it decreases error, increase it. The learning rate controls how much to adjust: too high and you overshoot, too low and training is slow.</p>
 
             <h3>Step 5: Repeat</h3>
             <p>Repeat this process thousands or millions of times on batches of training data. With each iteration, the network improves slightly.</p>
 
             <div class="key-takeaway">
-              <strong>Key Takeaway:</strong> Neural networks learn by comparing predictions to actual answers, calculating error, and adjusting parameters to reduce that error—a process called backpropagation.
+              <strong>Key Takeaway:</strong> Neural networks learn by comparing predictions to actual answers, calculating error, and adjusting parameters to reduce that error, a process called backpropagation.
             </div>
           </section>
 
@@ -263,9 +263,9 @@
             <h2>Special Network Architectures</h2>
 
             <h3>Convolutional Neural Networks (CNNs)</h3>
-            <p>Designed for spatial data like images. Instead of fully connected neurons (where each neuron connects to all neurons in the previous layer), CNNs use convolutional layers. Each neuron looks at a small region (e.g., 3x3 pixels) and detects local patterns. This is computationally efficient and allows the network to learn spatial hierarchies—edges, textures, shapes, objects.</p>
+            <p>Designed for spatial data like images. Instead of fully connected neurons (where each neuron connects to all neurons in the previous layer), CNNs use convolutional layers. Each neuron looks at a small region (e.g., 3x3 pixels) and detects local patterns. This is computationally efficient and allows the network to learn spatial hierarchies: edges, textures, shapes, objects.</p>
 
-            <p>CNNs revolutionized computer vision. They power facial recognition, autonomous vehicles, and medical image analysis.</p>
+            <p>CNNs transformed computer vision. They power facial recognition, autonomous vehicles, and medical image analysis.</p>
 
             <h3>Recurrent Neural Networks (RNNs)</h3>
             <p>Designed for sequential data like text or time series. RNNs have connections that loop back, allowing information to persist. They process data sequentially, maintaining hidden state that captures context from previous inputs.</p>
@@ -286,7 +286,7 @@
           <h2>Conclusion</h2>
           <p>Neural networks learn by combining many simple computations (artificial neurons) into powerful hierarchical models. Through repeated exposure to training data and adjustment of weights via backpropagation, they discover patterns in data that lead to accurate predictions.</p>
 
-          <p>While inspired by biology, artificial neural networks are mathematical models optimized for computation. Understanding their basic structure—neurons, layers, weights, activation functions, and training—is key to understanding modern AI.</p>
+          <p>While inspired by biology, artificial neural networks are mathematical models optimized for computation. Understanding their basic structure (neurons, layers, weights, activation functions, and training) is key to understanding modern AI.</p>
         </div>
 
         <section class="faq">

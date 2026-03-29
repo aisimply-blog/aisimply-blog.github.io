@@ -147,7 +147,7 @@
           <section id="what-is-ml">
             <h2>What Is Machine Learning?</h2>
             <p>Machine Learning (ML) is a subset of artificial intelligence that focuses on enabling computers to learn and improve from experience without being explicitly programmed for every scenario. Instead of a programmer coding every rule, a machine learning system learns patterns from data.</p>
-            <p>Imagine teaching a child to recognize dogs. You don't give them a rulebook defining "dog-ness." Instead, you show them many dogs, and they naturally learn the patterns—four legs, fur, barking, etc. They can then recognize a dog they've never seen before. Machine learning works similarly.</p>
+            <p>Imagine teaching a child to recognize dogs. You don't give them a rulebook defining "dog-ness." Instead, you show them many dogs, and they naturally learn the patterns: four legs, fur, barking, etc. They can then recognize a dog they've never seen before. Machine learning works similarly.</p>
 
             <div class="key-takeaway">
               <strong>Key Takeaway:</strong> Machine learning enables systems to learn patterns from data and make predictions on new, unseen data without being explicitly programmed for each case.
@@ -161,7 +161,7 @@
             <p>Supervised learning is like learning with a teacher. The system is given labeled examples (input-output pairs) and learns to predict outputs for new inputs.</p>
 
             <h3>The Analogy</h3>
-            <p>Imagine a teacher showing you hundreds of fruit photos, each labeled "apple," "orange," or "banana." After seeing enough examples, you learn to identify unlabeled fruits. Supervised learning works the same way—the labels are the "supervision."</p>
+            <p>Imagine a teacher showing you hundreds of fruit photos, each labeled "apple," "orange," or "banana." After seeing enough examples, you learn to identify unlabeled fruits. Supervised learning works the same way, the labels are the "supervision."</p>
 
             <h3>Common Supervised Learning Tasks</h3>
             <ul>
@@ -170,7 +170,7 @@
             </ul>
 
             <h3>Real-World Example: Email Spam Filters</h3>
-            <p>Your email provider trains a supervised learning model on millions of emails, each labeled "spam" or "legitimate." The system learns patterns—certain keywords, sender characteristics, formatting quirks—that distinguish spam. When a new email arrives, the model predicts whether it's spam.</p>
+            <p>Your email provider trains a supervised learning model on millions of emails, each labeled "spam" or "legitimate." The system learns patterns (certain keywords, sender characteristics, formatting quirks) that distinguish spam. When a new email arrives, the model predicts whether it's spam.</p>
 
             <blockquote>
               "The quality of your training data determines the quality of your predictions. Garbage in, garbage out."
@@ -185,7 +185,7 @@
             <p>Unsupervised learning is learning without a teacher. The system receives unlabeled data and must find patterns or structure on its own.</p>
 
             <h3>The Analogy</h3>
-            <p>Imagine being handed a pile of unlabeled photos and being asked to organize them. Without labels, you might group them by visual similarity—sorting photos of people separately from landscapes, then subdividing those groups further. Unsupervised learning does something similar with data.</p>
+            <p>Imagine being handed a pile of unlabeled photos and being asked to organize them. Without labels, you might group them by visual similarity: sorting photos of people separately from landscapes, then subdividing those groups further. Unsupervised learning does something similar with data.</p>
 
             <h3>Common Unsupervised Learning Tasks</h3>
             <ul>
@@ -195,10 +195,10 @@
             </ul>
 
             <h3>Real-World Example: Customer Segmentation</h3>
-            <p>A company provides unsupervised learning with customer data—purchase history, browsing behavior, demographics. The system automatically groups customers into segments based on similarity. The company discovers they have "budget-conscious bargain hunters," "premium quality seekers," and "occasional impulse buyers." These segments were never explicitly labeled but emerged from the data.</p>
+            <p>A company provides unsupervised learning with customer data: purchase history, browsing behavior, demographics. The system automatically groups customers into segments based on similarity. The company discovers they have "budget-conscious bargain hunters," "premium quality seekers," and "occasional impulse buyers." These segments were never explicitly labeled but emerged from the data.</p>
 
             <h3>Strengths and Limitations</h3>
-            <p>Unsupervised learning works with unlabeled data, which is abundant. However, validating results is harder—how do you know if the discovered patterns are meaningful or just noise? Human interpretation is often required.</p>
+            <p>Unsupervised learning works with unlabeled data, which is abundant. However, validating results is harder: how do you know if the discovered patterns are meaningful or just noise? Human interpretation is often required.</p>
           </section>
 
           <section id="reinforcement">
@@ -231,7 +231,7 @@
             <p>Generally, more data is better. A language model trained on 10 billion words knows more patterns than one trained on 1 billion words. However, there's a point of diminishing returns where additional data adds little value.</p>
 
             <h3>Quality Matters More</h3>
-            <p>Clean, accurate, representative data is crucial. If your training data contains mislabeled examples, biases, or doesn't represent real-world diversity, your model will fail in the wild. Garbage in, garbage out.</p>
+            <p>Clean, accurate, representative data is vital. If your training data contains mislabeled examples, biases, or doesn't represent real-world diversity, your model will fail in the wild. Garbage in, garbage out.</p>
 
             <h3>Bias in Training Data</h3>
             <p>If your training data is biased, your model will be biased. For example, if a facial recognition system is trained primarily on light-skinned faces, it performs poorly on darker skin tones. This reflects biases in the training data.</p>
@@ -245,13 +245,13 @@
             <h2>Real-World Machine Learning Examples</h2>
 
             <h3>Netflix Recommendations (Supervised + Collaborative Filtering)</h3>
-            <p>Netflix trains supervised learning models on your watch history, ratings, and behavior. It also uses collaborative filtering—finding users similar to you and recommending shows they liked. This combination powers its recommendation engine.</p>
+            <p>Netflix trains supervised learning models on your watch history, ratings, and behavior. It also uses collaborative filtering: finding users similar to you and recommending shows they liked. This combination powers its recommendation engine.</p>
 
             <h3>Spam Filters (Supervised Learning)</h3>
             <p>Email providers train classifiers on billions of emails labeled spam or legitimate. They learn patterns in email headers, content, sender reputation, and more. New emails are classified in real-time.</p>
 
             <h3>Credit Card Fraud Detection (Supervised + Unsupervised)</h3>
-            <p>Banks use supervised learning on historical transactions labeled fraudulent or legitimate. They also use anomaly detection (unsupervised) to flag unusual spending patterns—sudden purchases in foreign countries, atypical spending amounts, etc.</p>
+            <p>Banks use supervised learning on historical transactions labeled fraudulent or legitimate. They also use anomaly detection (unsupervised) to flag unusual spending patterns: sudden purchases in foreign countries, atypical spending amounts, etc.</p>
 
             <h3>Medical Diagnosis (Supervised Learning)</h3>
             <p>AI systems are trained on thousands of medical images (X-rays, MRIs) labeled with diagnoses. Radiologists use these systems to assist in detecting tumors, fractures, and other conditions.</p>
@@ -275,7 +275,7 @@
             <li><strong>Deployment:</strong> Put the model in production</li>
             <li><strong>Monitoring:</strong> Track performance and retrain when needed</li>
           </ol>
-          <p>Each step is crucial. A model is only as good as the data, features, and training process behind it.</p>
+          <p>Each step is important. A model is only as good as the data, features, and training process behind it.</p>
 
           <h2>Conclusion</h2>
           <p>Machine learning is a powerful approach to building intelligent systems. Supervised learning learns from labeled examples, unsupervised learning finds hidden patterns, and reinforcement learning learns through trial and error. Each has strengths and applications.</p>
