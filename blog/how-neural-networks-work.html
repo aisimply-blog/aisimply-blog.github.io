@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Neural Networks Work: A Simple Visual Explanation | AISimply</title>
+  <meta name="description" content="Learn how neural networks work with visual analogies. Understand neurons, layers, weights, biases, and the training process explained simply.">
+  <meta name="keywords" content="neural networks, neurons, deep learning, how neural networks work, perceptron, backpropagation">
+  <link rel="canonical" href="https://aisimply-blog.github.io/blog/how-neural-networks-work.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How Neural Networks Work: A Simple Visual Explanation">
+  <meta property="og:description" content="Learn how neural networks work with visual analogies. Understand neurons, layers, weights, biases, and the training process explained simply.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/blog/how-neural-networks-work.html">
+  <meta property="og:site_name" content="AISimply">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How Neural Networks Work: A Simple Visual Explanation">
+  <meta name="twitter:description" content="Learn how neural networks work with visual analogies. Understand neurons, layers, weights, biases, and the training process explained simply.">
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-neural-networks-work.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-neural-networks-work.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How Neural Networks Work: A Simple Visual Explanation",
+    "description": "Learn how neural networks work with visual analogies. Understand neurons, layers, weights, biases, and the training process explained simply.",
+    "image": "https://aisimply-blog.github.io/images/neural-networks.jpg",
+    "datePublished": "2026-04-07T00:00:00Z",
+    "dateModified": "2026-04-07T00:00:00Z",
+    "author": {
+      "@type": "Organization",
+      "name": "AISimply",
+      "url": "https://aisimply-blog.github.io"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AISimply",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aisimply-blog.github.io/logo.png"
+      }
+    },
+    "wordCount": 1850,
+    "articleSection": "AI Basics"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How are artificial neural networks inspired by biological brains?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Artificial neurons are loosely inspired by biological neurons. They receive signals (inputs), process them (weighted sum), and send an output signal. However, artificial neural networks are vastly simplified compared to biological brains."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are weights and biases in a neural network?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Weights determine the importance of each input to a neuron. Biases shift the output threshold. During training, these values are adjusted to minimize prediction error. They're the learnable parameters that enable the network to fit data."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a hidden layer in a neural network?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hidden layers are layers between the input and output layers. They learn intermediate representations of the data. More hidden layers allow the network to learn more complex patterns, but also require more data and computation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between CNNs and RNNs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CNNs (Convolutional Neural Networks) are designed for spatial data like images. RNNs (Recurrent Neural Networks) are designed for sequential data like text or time series. CNNs excel at pattern recognition in space; RNNs excel at patterns in sequences."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aisimply-blog.github.io/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://aisimply-blog.github.io/blog/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "How Neural Networks Work",
+        "item": "https://aisimply-blog.github.io/blog/how-neural-networks-work.html"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="reading-progress"></div>
+  <main class="article-page">
+    <div class="container content-container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Home</a> <span class="separator">/</span>
+        <a href="index.html">Blog</a> <span class="separator">/</span>
+        <span>How Neural Networks Work</span>
+      </nav>
+      <article>
+        <header class="article-header">
+          <h1>How Neural Networks Work: A Simple Visual Explanation</h1>
+          <div class="article-meta">
+            <span>Published: April 7, 2026</span>
+            <span>⏱ 10 min read</span>
+            <span>Category: AI Basics</span>
+          </div>
+        </header>
+        <div class="ad-slot"><!-- AdSense --></div>
+        <nav class="toc">
+          <h2>Table of Contents</h2>
+          <ul>
+            <li><a href="#biological-inspiration">Biological Inspiration</a></li>
+            <li><a href="#artificial-neuron">The Artificial Neuron</a></li>
+            <li><a href="#layers">Network Architecture: Layers</a></li>
+            <li><a href="#weights-biases">Weights and Biases</a></li>
+            <li><a href="#activation">Activation Functions</a></li>
+            <li><a href="#training">The Training Process</a></li>
+            <li><a href="#special-networks">Special Network Types</a></li>
+          </ul>
+        </nav>
+        <div class="article-body">
+          <section id="biological-inspiration">
+            <h2>Biological Inspiration: From Brain to Computer</h2>
+            <p>Neural networks are inspired by how biological brains work. Our brains contain roughly 86 billion neurons connected by trillions of synapses. Information flows through this network, and learning happens as connections strengthen or weaken based on experience.</p>
+
+            <p>Computer scientists created simplified mathematical models of this process, which became artificial neural networks. While inspired by biology, artificial neural networks are far simpler than real brains and work differently in many important ways.</p>
+
+            <div class="key-takeaway">
+              <strong>Key Takeaway:</strong> Artificial neural networks draw inspiration from biology but are ultimately mathematical models optimized for computation, not biological accuracy.
+            </div>
+          </section>
+
+          <section id="artificial-neuron">
+            <h2>The Artificial Neuron: The Building Block</h2>
+            <p>An artificial neuron is a mathematical function that takes multiple inputs, performs a calculation, and produces an output. Here's how it works:</p>
+
+            <h3>Step 1: Receive Input</h3>
+            <p>A neuron receives multiple inputs. These might be raw data (pixels in an image) or outputs from previous neurons.</p>
+
+            <h3>Step 2: Weight the Inputs</h3>
+            <p>Each input is multiplied by a weight. Weights indicate importance—a high weight means that input strongly influences the neuron's output. Low weights mean the input matters little. These weights are what the network learns.</p>
+
+            <h3>Step 3: Sum and Add Bias</h3>
+            <p>The weighted inputs are summed together. A bias term is added. The bias shifts the output threshold, allowing the neuron to output non-zero values even when all inputs are zero.</p>
+
+            <h3>Step 4: Apply Activation Function</h3>
+            <p>The result passes through an activation function, which introduces non-linearity. Without activation functions, stacked neurons would just perform linear transformations, unable to learn complex patterns. Common activation functions include ReLU, sigmoid, and tanh.</p>
+
+            <h3>Step 5: Produce Output</h3>
+            <p>The neuron outputs a single value, which becomes an input to neurons in the next layer or a final prediction.</p>
+
+            <blockquote>
+              "A single neuron is just a mathematical function. A network of neurons is powerful because each layer transforms data into increasingly abstract representations."
+            </blockquote>
+          </section>
+
+          <section id="layers">
+            <h2>Network Architecture: Input, Hidden, and Output Layers</h2>
+
+            <h3>Input Layer</h3>
+            <p>The input layer isn't actually neurons—it's just your raw data. If you're classifying images, the input layer has one node per pixel. If you're predicting house prices from features, the input layer has one node per feature (square footage, bedrooms, location, etc.).</p>
+
+            <h3>Hidden Layers</h3>
+            <p>Hidden layers are where the magic happens. Each hidden layer learns increasingly abstract representations. In image recognition, the first hidden layer might detect edges, the next layer might combine edges into shapes, a deeper layer might recognize eyes and noses, and so on.</p>
+
+            <p>More hidden layers allow the network to learn more complex hierarchical representations. However, they also require more data, more computation, and are harder to train. There's no magic formula for the "right" number of layers—it depends on the problem.</p>
+
+            <h3>Output Layer</h3>
+            <p>The output layer produces final predictions. For binary classification (yes/no), it has one neuron. For multi-class classification (dog, cat, bird), it has one neuron per class. For regression (predicting a number), it typically has one output neuron.</p>
+
+            <div class="key-takeaway">
+              <strong>Key Takeaway:</strong> A neural network with multiple hidden layers (deep network) can learn hierarchical representations that shallow networks cannot.
+            </div>
+          </section>
+
+          <section id="weights-biases">
+            <h2>Weights and Biases: Learning the Parameters</h2>
+            <p>Neural networks have two types of learnable parameters: weights and biases. Understanding these is crucial to understanding how neural networks learn.</p>
+
+            <h3>Weights: Measuring Importance</h3>
+            <p>A weight indicates how much one input influences a neuron's output. Imagine a doctor diagnosing disease:</p>
+            <ul>
+              <li>High blood pressure (input) gets a high weight—it's important for heart disease diagnosis</li>
+              <li>Hair color (input) gets a low weight—it's irrelevant</li>
+            </ul>
+            <p>Neural networks learn to set weights such that important inputs have high weights and unimportant inputs have low weights.</p>
+
+            <h3>Biases: Shifting the Threshold</h3>
+            <p>A bias shifts the activation threshold. Without biases, a neuron outputs zero when all inputs are zero, which limits what the network can represent. Biases allow more flexibility.</p>
+
+            <h3>The Sheer Number of Parameters</h3>
+            <p>A small neural network with 1,000 input neurons, 100 hidden neurons, and 10 output neurons has roughly 110,000 weights and 110 biases—over 110,000 parameters to learn. Large language models have billions of parameters. All of these must be carefully adjusted during training.</p>
+          </section>
+
+          <section id="activation">
+            <h2>Activation Functions: Introducing Non-linearity</h2>
+            <p>Activation functions are crucial because they introduce non-linearity. Without them, a neural network would just be a series of linear transformations, capable of learning only linear relationships.</p>
+
+            <h3>ReLU (Rectified Linear Unit)</h3>
+            <p>The most popular modern activation function. It outputs the input if positive, zero if negative. Simple, computationally efficient, and surprisingly effective.</p>
+
+            <h3>Sigmoid</h3>
+            <p>Outputs a value between 0 and 1, useful for binary classification. It was popular early on but can suffer from vanishing gradients during training.</p>
+
+            <h3>Tanh</h3>
+            <p>Outputs a value between -1 and 1. Similar to sigmoid but with better properties for training deep networks.</p>
+
+            <h3>Softmax</h3>
+            <p>Used in the output layer for multi-class classification. Converts outputs into probabilities that sum to 1.</p>
+          </section>
+
+          <section id="training">
+            <h2>The Training Process: How Networks Learn</h2>
+            <p>Training is where the magic happens. The network adjusts its weights and biases to minimize prediction errors. Here's the process:</p>
+
+            <h3>Step 1: Forward Pass</h3>
+            <p>Feed training data through the network. Each neuron performs its calculation, layer by layer. The output layer produces a prediction.</p>
+
+            <h3>Step 2: Calculate Error</h3>
+            <p>Compare the prediction to the actual answer. How wrong was the network? This is quantified as a loss (error). Lower loss is better.</p>
+
+            <h3>Step 3: Backward Pass (Backpropagation)</h3>
+            <p>Starting from the output layer and moving backward, calculate how much each parameter (weight and bias) contributed to the error. This uses calculus (specifically, the chain rule) to compute gradients.</p>
+
+            <h3>Step 4: Update Parameters</h3>
+            <p>Adjust weights and biases in the direction that reduces error. Use gradient descent: if a weight increases error, decrease it; if it decreases error, increase it. The learning rate controls how much to adjust—too high and you overshoot, too low and training is slow.</p>
+
+            <h3>Step 5: Repeat</h3>
+            <p>Repeat this process thousands or millions of times on batches of training data. With each iteration, the network improves slightly.</p>
+
+            <div class="key-takeaway">
+              <strong>Key Takeaway:</strong> Neural networks learn by comparing predictions to actual answers, calculating error, and adjusting parameters to reduce that error—a process called backpropagation.
+            </div>
+          </section>
+
+          <section id="special-networks">
+            <h2>Special Network Architectures</h2>
+
+            <h3>Convolutional Neural Networks (CNNs)</h3>
+            <p>Designed for spatial data like images. Instead of fully connected neurons (where each neuron connects to all neurons in the previous layer), CNNs use convolutional layers. Each neuron looks at a small region (e.g., 3x3 pixels) and detects local patterns. This is computationally efficient and allows the network to learn spatial hierarchies—edges, textures, shapes, objects.</p>
+
+            <p>CNNs revolutionized computer vision. They power facial recognition, autonomous vehicles, and medical image analysis.</p>
+
+            <h3>Recurrent Neural Networks (RNNs)</h3>
+            <p>Designed for sequential data like text or time series. RNNs have connections that loop back, allowing information to persist. They process data sequentially, maintaining hidden state that captures context from previous inputs.</p>
+
+            <p>RNNs power language translation, speech recognition, and sentiment analysis. Variants like LSTMs (Long Short-Term Memory) and GRUs (Gated Recurrent Units) address limitations of basic RNNs.</p>
+
+            <h3>Transformers</h3>
+            <p>A newer architecture that powers modern language models like ChatGPT. Instead of sequential processing, transformers process entire sequences in parallel and use attention mechanisms to determine which parts of the input are most relevant. They've become dominant in natural language processing.</p>
+          </section>
+
+          <div class="ad-slot"><!-- AdSense --></div>
+
+          <h2>From Theory to Practice</h2>
+          <p>Building neural networks involves choosing the right architecture, initializing weights properly, selecting good hyperparameters (learning rate, batch size, number of layers), and monitoring training to avoid overfitting (performing well on training data but poorly on new data).</p>
+
+          <p>Modern frameworks like TensorFlow, PyTorch, and JAX handle the mathematical complexity. A practitioner can build networks by composing pre-built layers, letting the framework handle forward passes, backpropagation, and parameter updates.</p>
+
+          <h2>Conclusion</h2>
+          <p>Neural networks learn by combining many simple computations (artificial neurons) into powerful hierarchical models. Through repeated exposure to training data and adjustment of weights via backpropagation, they discover patterns in data that lead to accurate predictions.</p>
+
+          <p>While inspired by biology, artificial neural networks are mathematical models optimized for computation. Understanding their basic structure—neurons, layers, weights, activation functions, and training—is key to understanding modern AI.</p>
+        </div>
+
+        <section class="faq">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-item">
+            <button class="faq-question">How are artificial neural networks inspired by biological brains?</button>
+            <div class="faq-answer">
+              <p>Artificial neurons are loosely inspired by biological neurons. They receive signals (inputs), process them (weighted sum), and send an output signal. However, artificial neural networks are vastly simplified compared to biological brains.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What are weights and biases in a neural network?</button>
+            <div class="faq-answer">
+              <p>Weights determine the importance of each input to a neuron. Biases shift the output threshold. During training, these values are adjusted to minimize prediction error. They're the learnable parameters that enable the network to fit data.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What is a hidden layer in a neural network?</button>
+            <div class="faq-answer">
+              <p>Hidden layers are layers between the input and output layers. They learn intermediate representations of the data. More hidden layers allow the network to learn more complex patterns, but also require more data and computation.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What is the difference between CNNs and RNNs?</button>
+            <div class="faq-answer">
+              <p>CNNs (Convolutional Neural Networks) are designed for spatial data like images. RNNs (Recurrent Neural Networks) are designed for sequential data like text or time series. CNNs excel at pattern recognition in space; RNNs excel at patterns in sequences.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="ad-slot"><!-- AdSense --></div>
+
+        <div class="related-articles">
+          <h2>You Might Also Like</h2>
+          <div class="related-grid" id="relatedArticles" data-current="how-neural-networks-work" data-category="ai-basics"></div>
+        </div>
+      </article>
+    </div>
+  </main>
+  <script src="../common.js"></script>
+</body>
+</html>

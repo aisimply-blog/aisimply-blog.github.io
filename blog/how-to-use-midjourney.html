@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Use Midjourney: Create Stunning AI Art | AISimply</title>
+  <meta name="description" content="Master Midjourney for AI art creation. Learn commands, prompt structure, style keywords, advanced parameters, and pro tips for stunning results.">
+  <meta name="keywords" content="Midjourney, AI art, image generation, prompts, Discord, creative AI, digital art, style keywords">
+  <link rel="canonical" href="https://aisimply-blog.github.io/blog/how-to-use-midjourney.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How to Use Midjourney: Create Stunning AI Art">
+  <meta property="og:description" content="Master Midjourney for AI art creation. Learn commands, prompt structure, style keywords, and pro tips for stunning results.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/blog/how-to-use-midjourney.html">
+  <meta property="og:site_name" content="AISimply">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-midjourney.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-midjourney.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Use Midjourney: Create Stunning AI Art",
+    "description": "Master Midjourney for AI art creation. Learn commands, prompt structure, style keywords, and pro tips for stunning results.",
+    "image": "https://aisimply-blog.github.io/images/midjourney-hero.jpg",
+    "datePublished": "2024-07-18",
+    "author": {"@type": "Organization", "name": "AISimply"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "How do I start using Midjourney?", "acceptedAnswer": {"@type": "Answer", "text": "Join the official Midjourney Discord server, subscribe ($8/month minimum), and start using the /imagine command in any channel. You can test with free trial GPU hours first."}},
+      {"@type": "Question", "name": "Why are my Midjourney prompts not working well?", "acceptedAnswer": {"@type": "Answer", "text": "Vague prompts produce mediocre results. Be specific about: subject, style, artist inspirations, medium, lighting, mood, and composition. Use advanced parameters like --v 5.2, --style raw, --ar 16:9."}},
+      {"@type": "Question", "name": "What's the difference between upscale and variation?", "acceptedAnswer": {"@type": "Answer", "text": "Upscale makes the image larger and adds detail while keeping the composition. Variation creates a new image with similar vibes but different elements. Use both strategically."}},
+      {"@type": "Question", "name": "Can I use Midjourney images commercially?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with a paid subscription ($8+/month). Free trial users cannot use images commercially. Always check licensing terms for your use case."}},
+      {"@type": "Question", "name": "How much does Midjourney cost?", "acceptedAnswer": {"@type": "Answer", "text": "Plans start at $8/month (fast mode, up to 200 images). There's also a $16/mo standard plan and $30/mo pro plan with more GPU hours. Annual billing saves 20%."}},
+      {"@type": "Question", "name": "What's the best Midjourney version?", "acceptedAnswer": {"@type": "Answer", "text": "Version 5.2 (current) offers excellent quality and understanding. Experiment with different versions using --v 5.2, --v 5.1, --v 5, --niji 5 (anime) to find your preference."}}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aisimply-blog.github.io"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aisimply-blog.github.io/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "Midjourney Guide", "item": "https://aisimply-blog.github.io/blog/how-to-use-midjourney.html"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="reading-progress"></div>
+  <main class="article-page">
+    <div class="container content-container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Home</a> <span class="separator">/</span>
+        <a href="index.html">Blog</a> <span class="separator">/</span>
+        <span>Midjourney Guide</span>
+      </nav>
+      <article>
+        <header class="article-header">
+          <h1>How to Use Midjourney: Create Stunning AI Art</h1>
+          <div class="article-meta">
+            <span>Published: July 18, 2024</span>
+            <span>&#9200; 11 min read</span>
+            <span>Category: How-To Guides</span>
+          </div>
+        </header>
+        <div class="ad-slot"><!-- AdSense --></div>
+        <nav class="toc">
+          <h2>Table of Contents</h2>
+          <ul>
+            <li><a href="#setup">Setup and Getting Started</a></li>
+            <li><a href="#imagine-command">The /imagine Command</a></li>
+            <li><a href="#prompt-structure">Prompt Structure Basics</a></li>
+            <li><a href="#style-keywords">Style Keywords and Inspiration</a></li>
+            <li><a href="#aspect-ratios">Aspect Ratios and Dimensions</a></li>
+            <li><a href="#variations">Variations, Upscaling, and Remixing</a></li>
+            <li><a href="#advanced-parameters">Advanced Parameters</a></li>
+            <li><a href="#pro-tips">Pro Tips and Tricks</a></li>
+          </ul>
+        </nav>
+        <div class="article-body">
+          <h2 id="setup">Setup and Getting Started</h2>
+          <p>Midjourney is the leading AI art generator. Getting started takes just a few minutes.</p>
+
+          <h3>Step 1: Join Discord</h3>
+          <p>Midjourney runs entirely on Discord. If you don't have Discord, download it (free) from discord.com and create an account.</p>
+
+          <h3>Step 2: Join Midjourney Server</h3>
+          <p>Go to midjourney.com and click "Sign In" → "Join the Beta." This adds you to the official Midjourney Discord server.</p>
+
+          <h3>Step 3: Subscribe</h3>
+          <p>Use the `/subscribe` command in the Discord or visit midjourney.com/account to choose a plan:</p>
+
+          <div class="comparison-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Plan</th>
+                  <th>Price</th>
+                  <th>Fast GPU Hours</th>
+                  <th>Best For</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Basic</td>
+                  <td>$8/mo</td>
+                  <td>3.3 hours/month</td>
+                  <td>Casual users, hobbyists</td>
+                </tr>
+                <tr>
+                  <td>Standard</td>
+                  <td>$16/mo</td>
+                  <td>15 hours/month</td>
+                  <td>Regular creators, portfolio building</td>
+                </tr>
+                <tr>
+                  <td>Pro</td>
+                  <td>$30/mo</td>
+                  <td>30 hours/month</td>
+                  <td>Professional artists, commercial use</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Step 4: Start Creating</h3>
+          <p>You can now use the `/imagine` command in any Midjourney channel. Try a simple prompt first to get comfortable.</p>
+
+          <h2 id="imagine-command">The /imagine Command</h2>
+          <p>The core of Midjourney is the `/imagine` command. It takes your text description and generates an image.</p>
+
+          <h3>Basic Format</h3>
+          <pre><code>/imagine [your detailed prompt]</code></pre>
+
+          <h3>Simple Example</h3>
+          <pre><code>/imagine A serene mountain landscape at sunset, oil painting style, warm golden light</code></pre>
+
+          <p>Midjourney generates 4 image variations. You can then:</p>
+          <ul>
+            <li><strong>U1-U4:</strong> Upscale one of the images (make it larger and add detail)</li>
+            <li><strong>V1-V4:</strong> Generate variations of one image (similar but different)</li>
+            <li><strong>Refresh:</strong> Re-generate all 4 with the same prompt</li>
+          </ul>
+
+          <h2 id="prompt-structure">Prompt Structure Basics</h2>
+          <p>The quality of your output depends on prompt quality. Follow this structure for best results:</p>
+
+          <h3>Formula: Subject + Medium + Style + Mood + Details</h3>
+
+          <p><strong>Example broken down:</strong></p>
+          <pre><code>Subject: A young woman with flowing red hair
+Medium: Digital painting
+Style: Cyberpunk, neon lights
+Mood: Determined, serious expression
+Details: Holographic interfaces, dark background, 4k, ultra detailed
+
+Full prompt: A young woman with flowing red hair, digital painting, cyberpunk style with neon lights, determined expression, holographic interfaces surrounding her, dark moody background, 4k ultra detailed --v 5.2</code></pre>
+
+          <h3>Better Prompts Checklist</h3>
+
+          <div class="best-practices-box">
+            <h3>Include:</h3>
+            <ul>
+              <li>Clear subject matter (what's the main focus?)</li>
+              <li>Artistic medium (oil painting, 3D render, photography, digital art)</li>
+              <li>Style references (cyberpunk, surreal, minimalist, baroque)</li>
+              <li>Mood and atmosphere (dark, bright, peaceful, chaotic)</li>
+              <li>Composition hints (wide angle, close-up, bird's eye view)</li>
+              <li>Lighting description (golden hour, neon, dramatic shadows)</li>
+              <li>Quality notes (4k, highly detailed, photorealistic)</li>
+            </ul>
+
+            <h3>Avoid:</h3>
+            <ul>
+              <li>Vague descriptions ("a nice picture")</li>
+              <li>Too many conflicting styles</li>
+              <li>Negation in prompts (instead of "not ugly," say "beautiful")</li>
+              <li>Overly long prompts (150-200 words is ideal)</li>
+            </ul>
+          </div>
+
+          <h2 id="style-keywords">Style Keywords and Inspiration</h2>
+          <p>Specific style keywords dramatically improve results. Use these as inspiration:</p>
+
+          <h3>Artistic Mediums</h3>
+          <ul>
+            <li>Oil painting, watercolor, acrylic, pen and ink</li>
+            <li>Digital painting, vector art, pixel art</li>
+            <li>Photography, cinematic, photorealistic</li>
+            <li>3D render, CGI, ray tracing</li>
+            <li>Illustration, comic book, graphic novel</li>
+          </ul>
+
+          <h3>Art Styles</h3>
+          <ul>
+            <li><strong>Classic:</strong> Renaissance, Baroque, Impressionism, Art Nouveau</li>
+            <li><strong>Modern:</strong> Surrealism, Cubism, Abstract, Minimalism</li>
+            <li><strong>Contemporary:</strong> Cyberpunk, Steampunk, Vaporwave, Art Deco</li>
+            <li><strong>Pop Culture:</strong> Comic, anime, manga, cartoon, Studio Ghibli style</li>
+          </ul>
+
+          <h3>Mood Keywords</h3>
+          <ul>
+            <li>Dark and moody, bright and cheerful, ethereal, dreamlike</li>
+            <li>Chaotic, peaceful, energetic, melancholic</li>
+            <li>Mysterious, epic, intimate, vast</li>
+          </ul>
+
+          <h3>Artist References</h3>
+          <p>Mentioning artists gives Midjourney style direction:</p>
+          <pre><code>/imagine A fantasy castle, in the style of Ralph McQuarrie and Studio Ghibli, oil painting, atmospheric lighting --v 5.2</code></pre>
+
+          <p><strong>Good artists to reference:</strong> Beksinski, Greg Rutkowski, Frank Frazetta, Artgerm, Simon Stalenhag, Concept art from movies</p>
+
+          <h2 id="aspect-ratios">Aspect Ratios and Dimensions</h2>
+          <p>Control image proportions with the `--ar` parameter:</p>
+
+          <div class="best-practices-box">
+            <h3>Common Aspect Ratios:</h3>
+            <ul>
+              <li><code>--ar 1:1</code> Square (Instagram, profile pictures)</li>
+              <li><code>--ar 16:9</code> Widescreen (YouTube thumbnails, desktop)</li>
+              <li><code>--ar 9:16</code> Vertical (mobile, TikTok, Instagram Stories)</li>
+              <li><code>--ar 3:2</code> Standard landscape (photo prints)</li>
+              <li><code>--ar 2:3</code> Portrait (portrait photos)</li>
+              <li><code>--ar 4:3</code> Classic TV (presentations)</li>
+            </ul>
+          </div>
+
+          <p><strong>Example:</strong></p>
+          <pre><code>/imagine A sci-fi spaceship, sleek design, nebula background --ar 16:9 --v 5.2</code></pre>
+
+          <h2 id="variations">Variations, Upscaling, and Remixing</h2>
+
+          <h3>Variations (V1-V4)</h3>
+          <p>Creates new images similar to the selected image. Good for exploring different interpretations of your prompt.</p>
+          <p><strong>Use when:</strong> You like the direction but want to see alternatives</p>
+
+          <h3>Upscaling (U1-U4)</h3>
+          <p>Enlarges the image and adds detail. Makes 512x512 into 1024x1024 (or higher with `--upbeta`).</p>
+          <p><strong>Use when:</strong> You've found an image you love and want final quality</p>
+
+          <h3>Remix Mode</h3>
+          <p>Allows you to modify your prompt while keeping the composition. Enable with `/settings`, toggle Remix mode on, then modify your prompt when creating variations.</p>
+
+          <p><strong>Example:</strong></p>
+          <p>Original: "A dragon, fantasy style, golden"</p>
+          <p>Remix: "A dragon, fantasy style, blue and purple ice magic"</p>
+
+          <h2 id="advanced-parameters">Advanced Parameters</h2>
+
+          <p>Fine-tune results with these powerful parameters:</p>
+
+          <div class="comparison-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Parameter</th>
+                  <th>What It Does</th>
+                  <th>Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>--v 5.2</code></td>
+                  <td>Model version (5.2 is latest)</td>
+                  <td>Use for best results</td>
+                </tr>
+                <tr>
+                  <td><code>--style raw</code></td>
+                  <td>Less stylized, more literal</td>
+                  <td>Use for photorealism</td>
+                </tr>
+                <tr>
+                  <td><code>--chaos 50</code></td>
+                  <td>Randomness (0-100)</td>
+                  <td>Higher = more variety</td>
+                </tr>
+                <tr>
+                  <td><code>--quality 2</code></td>
+                  <td>Render quality (0.25, 0.5, 1, 2)</td>
+                  <td>Higher = more detail</td>
+                </tr>
+                <tr>
+                  <td><code>--niji 5</code></td>
+                  <td>Anime style model</td>
+                  <td>Use for anime-style images</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Negative Prompts</h3>
+          <p>Specify what you DON'T want using `--no`:</p>
+          <pre><code>/imagine A beautiful landscape --no blurry, distorted, low quality --v 5.2</code></pre>
+
+          <h2 id="pro-tips">Pro Tips and Tricks</h2>
+
+          <h3>1. Test Simple Prompts First</h3>
+          <p>Before crafting complex prompts, test basic versions to understand how Midjourney interprets concepts.</p>
+
+          <h3>2. Use Image References</h3>
+          <p>Upload an image to Discord and reference it in your prompt:</p>
+          <pre><code>/imagine [image URL] but as a cyberpunk character, detailed --v 5.2</code></pre>
+
+          <p>This guides the AI toward similar compositions or styles.</p>
+
+          <h3>3. Iterate Strategically</h3>
+          <p>Don't just generate randomly. Follow this workflow:</p>
+          <ol>
+            <li>Generate 4 initial images with a base prompt</li>
+            <li>Pick your favorite</li>
+            <li>Create variations to explore it further</li>
+            <li>Once you love one, upscale it</li>
+          </ol>
+
+          <h3>4. Join Community Channels</h3>
+          <p>The Midjourney Discord has public channels where you can see what others create. Observe successful prompts and learn from them.</p>
+
+          <h3>5. Document Your Successful Prompts</h3>
+          <p>Keep a running document of prompts that worked well. This builds your personal library of style keywords and structures.</p>
+
+          <h3>6. Experiment with Weights</h3>
+          <p>Control emphasis on specific parts of your prompt using `::` and weights:</p>
+          <pre><code>/imagine A beautiful woman::3 in cyberpunk clothing::2, neon background::1 --v 5.2</code></pre>
+
+          <p>Higher weight = more influence on that part</p>
+
+          <h3>7. Use Blend for Mashups</h3>
+          <p>Combine multiple images with `/blend`:</p>
+          <ul>
+            <li>Upload 2-5 images</li>
+            <li>Choose aspect ratio</li>
+            <li>Midjourney creates a new image blending them</li>
+          </ul>
+
+          <h3>8. High-Res Upscaling</h3>
+          <p>Use `--upbeta` for 2x resolution upscaling without losing quality:</p>
+          <pre><code>/imagine [prompt] --upbeta</code></pre>
+
+          <div class="key-takeaway">
+            <strong>Bottom Line:</strong> Midjourney is powerful but rewards good prompting. Start simple, iterate based on results, and gradually refine your style. The best way to learn is by experimenting. Join the community, look at others' work, and keep a library of prompts that resonate with you. Your unique vision + AI capability = stunning results.
+          </div>
+        </div>
+
+        <section class="faq">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-item">
+            <button class="faq-question">How do I start using Midjourney?</button>
+            <div class="faq-answer">Join the official Midjourney Discord server, subscribe ($8/month minimum), and start using the /imagine command in any channel. You can test with free trial GPU hours first.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Why are my Midjourney prompts not working well?</button>
+            <div class="faq-answer">Vague prompts produce mediocre results. Be specific about: subject, style, artist inspirations, medium, lighting, mood, and composition. Use advanced parameters like --v 5.2, --style raw, --ar 16:9.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What's the difference between upscale and variation?</button>
+            <div class="faq-answer">Upscale makes the image larger and adds detail while keeping the composition. Variation creates a new image with similar vibes but different elements. Use both strategically.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Can I use Midjourney images commercially?</button>
+            <div class="faq-answer">Yes, with a paid subscription ($8+/month). Free trial users cannot use images commercially. Always check licensing terms for your use case.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">How much does Midjourney cost?</button>
+            <div class="faq-answer">Plans start at $8/month (fast mode, up to 200 images). There's also a $16/mo standard plan and $30/mo pro plan with more GPU hours. Annual billing saves 20%.</div>
+          </div>
+        </section>
+
+        <div class="ad-slot"><!-- AdSense --></div>
+        <div class="related-articles">
+          <h2>You Might Also Like</h2>
+          <div class="related-grid" id="relatedArticles" data-current="how-to-use-midjourney" data-category="how-to"></div>
+        </div>
+      </article>
+    </div>
+  </main>
+  <script src="../common.js"></script>
+</body>
+</html>

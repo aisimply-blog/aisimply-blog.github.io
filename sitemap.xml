@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage EN -->
+  <url>
+    <loc>https://aisimply-blog.github.io/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/"/>
+  </url>
+
+  <!-- Homepage FR -->
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/"/>
+  </url>
+
+  <!-- Blog Index EN -->
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/index.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/index.html"/>
+  </url>
+
+  <!-- Blog Index FR -->
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/index.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/index.html"/>
+  </url>
+
+  <!-- About EN -->
+  <url>
+    <loc>https://aisimply-blog.github.io/about.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/about.html"/>
+  </url>
+
+  <!-- About FR -->
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/about.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/about.html"/>
+  </url>
+
+  <!-- Privacy EN -->
+  <url>
+    <loc>https://aisimply-blog.github.io/privacy.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/privacy.html"/>
+  </url>
+
+  <!-- Privacy FR -->
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/privacy.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/privacy.html"/>
+  </url>
+
+  <!-- Categories EN -->
+  <url>
+    <loc>https://aisimply-blog.github.io/categories/ai-basics.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/ai-basics.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/categories/ai-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/ai-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/categories/how-to.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/how-to.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/categories/tech-essentials.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/tech-essentials.html"/>
+  </url>
+
+  <!-- Categories FR -->
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/categories/ai-basics.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/ai-basics.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/categories/ai-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/ai-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/categories/how-to.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/how-to.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/categories/tech-essentials.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/tech-essentials.html"/>
+  </url>
+
+  <!-- Articles EN -->
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-is-artificial-intelligence.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-artificial-intelligence.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/machine-learning-explained.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/machine-learning-explained.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/deep-learning-vs-machine-learning.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/deep-learning-vs-machine-learning.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-neural-networks-work.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-neural-networks-work.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-is-natural-language-processing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-natural-language-processing.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-is-computer-vision.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-computer-vision.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-are-large-language-models.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-are-large-language-models.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/ai-ethics-beginners-guide.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/ai-ethics-beginners-guide.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/history-of-artificial-intelligence.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/history-of-artificial-intelligence.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-is-generative-ai.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-generative-ai.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-free-ai-chatbots.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-free-ai-chatbots.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-image-generators.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-image-generators.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-writing-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-writing-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-coding-assistants.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-coding-assistants.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-video-generators.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-video-generators.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-music-generators.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-music-generators.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-presentation-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-presentation-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-productivity-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-productivity-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-learning-platforms.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-learning-platforms.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/chatgpt-vs-gemini-vs-claude.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/chatgpt-vs-gemini-vs-claude.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-photo-editors.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-photo-editors.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-translation-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-translation-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-note-taking-apps.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-note-taking-apps.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-ai-resume-builders.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-ai-resume-builders.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/best-free-ai-tools-students.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/best-free-ai-tools-students.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-use-chatgpt-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-chatgpt-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-write-ai-prompts.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-write-ai-prompts.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-create-ai-images.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-create-ai-images.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-use-ai-for-studying.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-studying.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-automate-tasks-with-ai.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-automate-tasks-with-ai.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-use-ai-for-writing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-writing.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-build-chatbot-no-code.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-build-chatbot-no-code.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-use-ai-for-job-search.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-job-search.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-fact-check-ai-responses.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-fact-check-ai-responses.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-protect-privacy-from-ai.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-protect-privacy-from-ai.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-use-ai-for-small-business.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-small-business.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-create-ai-videos.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-create-ai-videos.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-use-midjourney.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-midjourney.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-train-custom-ai-model.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-train-custom-ai-model.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/how-to-use-ai-for-cooking.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-cooking.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/cloud-computing-explained.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/cloud-computing-explained.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-is-an-api.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-an-api.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/cybersecurity-basics-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/cybersecurity-basics-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-is-blockchain-simple.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-blockchain-simple.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/internet-of-things-explained.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/internet-of-things-explained.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/what-is-open-source.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-open-source.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/vpn-explained-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/vpn-explained-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/quantum-computing-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/quantum-computing-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/will-ai-replace-my-job.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/will-ai-replace-my-job.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/blog/ai-glossary-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/ai-glossary-beginners.html"/>
+  </url>
+
+  <!-- Articles FR -->
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-is-artificial-intelligence.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-artificial-intelligence.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/machine-learning-explained.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/machine-learning-explained.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/deep-learning-vs-machine-learning.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/deep-learning-vs-machine-learning.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-neural-networks-work.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-neural-networks-work.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-is-natural-language-processing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-natural-language-processing.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-is-computer-vision.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-computer-vision.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-are-large-language-models.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-are-large-language-models.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/ai-ethics-beginners-guide.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/ai-ethics-beginners-guide.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/history-of-artificial-intelligence.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/history-of-artificial-intelligence.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-is-generative-ai.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-generative-ai.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-free-ai-chatbots.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-free-ai-chatbots.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-image-generators.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-image-generators.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-writing-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-writing-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-coding-assistants.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-coding-assistants.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-video-generators.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-video-generators.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-music-generators.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-music-generators.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-presentation-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-presentation-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-productivity-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-productivity-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-learning-platforms.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-learning-platforms.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/chatgpt-vs-gemini-vs-claude.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/chatgpt-vs-gemini-vs-claude.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-photo-editors.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-photo-editors.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-translation-tools.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-translation-tools.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-note-taking-apps.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-note-taking-apps.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-ai-resume-builders.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-ai-resume-builders.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/best-free-ai-tools-students.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/best-free-ai-tools-students.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-use-chatgpt-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-chatgpt-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-write-ai-prompts.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-write-ai-prompts.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-create-ai-images.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-create-ai-images.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-studying.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-ai-for-studying.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-automate-tasks-with-ai.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-automate-tasks-with-ai.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-writing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-ai-for-writing.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-build-chatbot-no-code.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-build-chatbot-no-code.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-job-search.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-ai-for-job-search.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-fact-check-ai-responses.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-fact-check-ai-responses.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-protect-privacy-from-ai.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-protect-privacy-from-ai.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-small-business.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-ai-for-small-business.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-create-ai-videos.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-create-ai-videos.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-use-midjourney.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-midjourney.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-train-custom-ai-model.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-train-custom-ai-model.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/how-to-use-ai-for-cooking.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-to-use-ai-for-cooking.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/cloud-computing-explained.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/cloud-computing-explained.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-is-an-api.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-an-api.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/cybersecurity-basics-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/cybersecurity-basics-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-is-blockchain-simple.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-blockchain-simple.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/internet-of-things-explained.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/internet-of-things-explained.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/what-is-open-source.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-open-source.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/vpn-explained-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/vpn-explained-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/quantum-computing-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/quantum-computing-beginners.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/will-ai-replace-my-job.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/will-ai-replace-my-job.html"/>
+  </url>
+
+  <url>
+    <loc>https://aisimply-blog.github.io/fr/blog/ai-glossary-beginners.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/ai-glossary-beginners.html"/>
+  </url>
+
+</urlset>

@@ -1,0 +1,50 @@
+{
+  "name": "AISimply",
+  "short_name": "AISimply",
+  "description": "AI & Tech Made Simple - Learn AI, machine learning, and technology for beginners. Free, bilingual, no tracking.",
+  "start_url": "https://aisimply-blog.github.io/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#6c5ce7",
+  "background_color": "#0f1117",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%236c5ce7' width='192' height='192'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='white' font-family='sans-serif' font-weight='bold'>✨</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%236c5ce7' width='512' height='512'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='250' fill='white' font-family='sans-serif' font-weight='bold'>✨</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "technology"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230f1117' width='540' height='720'/><rect fill='%236c5ce7' y='0' width='540' height='100'/><text x='270' y='50' dominant-baseline='middle' text-anchor='middle' font-size='24' fill='white' font-family='sans-serif' font-weight='bold'>AISimply</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Read articles about AI and technology",
+      "url": "https://aisimply-blog.github.io/blog/index.html",
+      "icons": []
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "Learn about AISimply",
+      "url": "https://aisimply-blog.github.io/about.html",
+      "icons": []
+    }
+  ]
+}

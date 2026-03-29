@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aisimply-blog.github.io/sitemap.xml
+
+# Disallow crawling of admin paths (if any)
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /.github/
+
+# Crawl delay
+Crawl-delay: 1

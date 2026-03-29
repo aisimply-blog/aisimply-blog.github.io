@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a29bfe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1d27;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="url(#grad)" opacity="0.15"/>
+  <circle cx="1100" cy="500" r="180" fill="url(#grad)" opacity="0.1"/>
+  <circle cx="600" cy="630" r="200" fill="url(#grad)" opacity="0.08"/>
+
+  <!-- Main content area -->
+  <g>
+    <!-- Icon -->
+    <g transform="translate(150, 150)">
+      <rect x="0" y="0" width="120" height="120" rx="20" fill="url(#grad)"/>
+      <text x="60" y="75" font-size="80" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle" fill="white">✨</text>
+    </g>
+
+    <!-- Main text -->
+    <text x="350" y="120" font-size="72" font-family="Arial, sans-serif" font-weight="800" fill="white">AISimply</text>
+
+    <!-- Tagline -->
+    <text x="350" y="200" font-size="36" font-family="Arial, sans-serif" font-weight="400" fill="#a29bfe">AI & Tech Made Simple</text>
+
+    <!-- Description -->
+    <text x="350" y="260" font-size="28" font-family="Arial, sans-serif" font-weight="400" fill="#e8eaed">Learn AI for beginners</text>
+    <text x="350" y="310" font-size="28" font-family="Arial, sans-serif" font-weight="400" fill="#9aa0b0">Free • Bilingual • No Tracking</text>
+
+    <!-- Bottom accent line -->
+    <line x1="150" y1="450" x2="1050" y2="450" stroke="url(#grad)" stroke-width="4"/>
+
+    <!-- URL -->
+    <text x="600" y="520" font-size="24" font-family="Arial, sans-serif" font-weight="500" text-anchor="middle" fill="#9aa0b0">aisimply.github.io</text>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | AISimply</title>
+  <meta name="description" content="Explorez 50+ articles sur l'IA, le machine learning et la technologie. Apprenez les bases de l'IA, découvrez des outils, suivez des guides pratiques et comprenez les essentiels de la tech.">
+  <meta name="canonical" href="https://aisimply-blog.github.io/fr/blog/index.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog | AISimply">
+  <meta property="og:description" content="Explorez 50+ articles sur l'IA, le machine learning et la technologie pour débutants.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/fr/blog/index.html">
+  <meta property="og:image" content="https://aisimply-blog.github.io/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/index.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://aisimply-blog.github.io/blog/index.html">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../../style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "AISimply Blog",
+    "description": "50+ articles sur l'IA, le machine learning et la technologie pour débutants",
+    "url": "https://aisimply-blog.github.io/fr/blog/index.html",
+    "inLanguage": "fr",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "AISimply",
+      "url": "https://aisimply-blog.github.io"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <main class="container articles-section">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="../../index.html">Accueil</a>
+      <span class="separator">/</span>
+      <span>Blog</span>
+    </div>
+
+    <!-- Blog Header -->
+    <div class="blog-header">
+      <h1>Blog</h1>
+      <p>Explorez des articles sur l'IA, le machine learning, les outils et la technologie</p>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+      <span class="search-icon">🔍</span>
+      <input
+        type="text"
+        id="blogSearch"
+        class="search-input"
+        placeholder="Rechercher des articles..."
+        aria-label="Rechercher des articles de blog"
+      >
+    </div>
+
+    <!-- Category Filters -->
+    <div class="category-filters" id="categoryFilters"></div>
+
+    <!-- Articles Grid -->
+    <div id="blogGrid" class="article-grid"></div>
+
+    <!-- Pagination -->
+    <div id="pagination" class="pagination"></div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../../common.js"></script>
+  <script>
+    // Blog-specific functionality will be handled by common.js
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof injectHeader === 'function') injectHeader();
+      if (typeof injectFooter === 'function') injectFooter();
+      if (typeof initializeBlogPage === 'function') initializeBlogPage();
+    });
+  </script>
+</body>
+</html>

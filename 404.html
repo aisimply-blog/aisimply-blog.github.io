@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | AISimply</title>
+  <meta name="description" content="Oops! The page you're looking for doesn't exist. Let's get you back on track.">
+  <meta name="canonical" href="https://aisimply-blog.github.io/404.html">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Page Not Found | AISimply">
+  <meta property="og:description" content="Oops! The page you're looking for doesn't exist.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/404.html">
+  <meta property="og:image" content="https://aisimply-blog.github.io/og-image.svg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Page Not Found",
+    "url": "https://aisimply-blog.github.io/404.html"
+  }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <main class="container page-404">
+    <h1>404</h1>
+    <p>Oops! We can't find that page. It might have moved, been deleted, or the link is broken.</p>
+    <a href="index.html" class="btn-home">Back to Home</a>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="common.js"></script>
+  <script>
+    // Inject header and footer
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof injectHeader === 'function') injectHeader();
+      if (typeof injectFooter === 'function') injectFooter();
+    });
+  </script>
+</body>
+</html>

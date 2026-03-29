@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Is Open Source? Why Free Software Matters | AISimply</title>
+  <meta name="description" content="Learn about open source: definition, history (GNU/Linux), how GitHub works, licenses, open source AI models, business models, and how to contribute.">
+  <meta name="keywords" content="open source, Linux, GitHub, free software, GPL, MIT license, open source contribution">
+  <link rel="canonical" href="https://aisimply-blog.github.io/blog/what-is-open-source.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="What Is Open Source? Why Free Software Matters">
+  <meta property="og:description" content="Learn about open source: definition, history, GitHub, licenses, open source AI models, business models, and how to contribute.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/blog/what-is-open-source.html">
+  <meta property="og:site_name" content="AISimply">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/what-is-open-source.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/what-is-open-source.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What Is Open Source? Why Free Software Matters",
+    "description": "Learn about open source: definition, history, GitHub, licenses, open source AI models, business models, and how to contribute.",
+    "datePublished": "2026-08-11",
+    "author": {"@type": "Organization", "name": "AISimply"},
+    "publisher": {"@type": "Organization", "name": "AISimply"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is open source always free?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Free means access to code, not necessarily free cost. Most open source is both free as in beer (no cost) and free as in speech (freedom to use/modify). But some commercial projects are open source."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can companies profit from open source?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Companies offer support, hosting, premium features, training, or commercial licenses. Red Hat (open source Linux company) was acquired for $34 billion."}
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between MIT and GPL licenses?",
+        "acceptedAnswer": {"@type": "Answer", "text": "MIT: very permissive, you can do anything including sell closed source derivatives. GPL: requires sharing improvements with the community. GPL is viral—derivative works inherit the license."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is open source software less secure?",
+        "acceptedAnswer": {"@type": "Answer", "text": "No. Many eyes on code can find bugs faster. However, open source can be slower to patch if maintainers are volunteers. Professional open source (Kubernetes, Linux) is very secure."}
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aisimply-blog.github.io/"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aisimply-blog.github.io/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "What Is Open Source?"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="reading-progress"></div>
+  <main class="article-page">
+    <div class="container content-container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Home</a> <span class="separator">/</span>
+        <a href="index.html">Blog</a> <span class="separator">/</span>
+        <span>What Is Open Source?</span>
+      </nav>
+      <article>
+        <header class="article-header">
+          <h1>What Is Open Source? Why Free Software Matters</h1>
+          <div class="article-meta">
+            <span>Published: August 11, 2026</span>
+            <span>⏱ 8 min read</span>
+            <span>Category: Tech Essentials</span>
+          </div>
+        </header>
+        <div class="ad-slot"><!-- AdSense --></div>
+        <nav class="toc">
+          <h2>Table of Contents</h2>
+          <ul>
+            <li><a href="#what-is-open-source">What Is Open Source?</a></li>
+            <li><a href="#history">History: GNU and Linux</a></li>
+            <li><a href="#how-it-works">How Open Source Works</a></li>
+            <li><a href="#licenses">Open Source Licenses Simply</a></li>
+            <li><a href="#famous-projects">Famous Open Source Projects</a></li>
+            <li><a href="#open-source-ai">Open Source AI Models</a></li>
+            <li><a href="#business-models">Business Models</a></li>
+            <li><a href="#how-to-contribute">How to Contribute</a></li>
+          </ul>
+        </nav>
+        <div class="article-body">
+          <section id="what-is-open-source">
+            <h2>What Is Open Source?</h2>
+            <p>Open source software is code that's publicly available for anyone to view, use, modify, and distribute. The source code (human-readable instructions) isn't hidden—it's open for inspection.</p>
+            <p>This contrasts with closed source (proprietary) software like Microsoft Windows, where only the company sees the code. You use the compiled program but can't see how it works.</p>
+            <div class="key-takeaway">
+              <strong>Key Takeaway:</strong> Open source means transparency. You can see exactly what the software does, audit it for security, and modify it for your needs.
+            </div>
+          </section>
+
+          <section id="history">
+            <h2>History: GNU and Linux</h2>
+            <p>In the 1980s, Richard Stallman believed all software should be free. He created GNU (a Unix-like operating system) and established the Free Software Foundation. In 1991, Linus Torvalds created Linux—a free operating system kernel.</p>
+            <p>Linux + GNU tools = a fully functional free operating system. This was revolutionary. You could build and run a complete system without paying a company.</p>
+            <p>Today, Linux runs most of the internet—servers, Android phones, AWS infrastructure, and supercomputers. It's the most successful open source project ever.</p>
+
+            <blockquote>
+              "Free software is a matter of liberty, not price." — Richard Stallman, GNU Founder
+            </blockquote>
+          </section>
+
+          <section id="how-it-works">
+            <h2>How Open Source Works</h2>
+
+            <h3>Code Repositories</h3>
+            <p>Open source code lives in repositories (usually GitHub). Anyone can view the code, download it, and contribute improvements.</p>
+
+            <h3>Contributions and Pull Requests</h3>
+            <p>If you fix a bug or add a feature, you submit a "pull request"—essentially saying "I improved the code; please review my changes." Project maintainers review and decide whether to accept your changes.</p>
+
+            <h3>Community-Driven Development</h3>
+            <p>Unlike corporate software (where one company decides everything), open source is developed by communities. Thousands of volunteers contribute based on what they need.</p>
+
+            <h3>Transparent Issues</h3>
+            <p>Bugs, feature requests, and discussions are public. You see exactly what's being worked on and can contribute solutions.</p>
+
+            <h3>Merit-Based Contributions</h3>
+            <p>Your code matters based on quality, not seniority. A teenager with good code has more influence than a manager with bad code.</p>
+          </section>
+
+          <div class="ad-slot"><!-- AdSense --></div>
+
+          <section id="licenses">
+            <h2>Open Source Licenses Simply</h2>
+            <p>Open source code has licenses that define what you can do with it. Main types:</p>
+
+            <h3>Permissive Licenses (MIT, Apache, BSD)</h3>
+            <p><strong>MIT License:</strong> Super permissive. You can use code however you want, including in closed source products. No obligations.</p>
+            <p><strong>Apache 2.0:</strong> Similar to MIT but includes explicit patent protection.</p>
+            <p><strong>Best for:</strong> Libraries, tools you want many people to use. Companies prefer these because of minimal obligations.</p>
+
+            <h3>Copyleft Licenses (GPL, AGPL)</h3>
+            <p><strong>GPL (General Public License):</strong> If you use GPL code, your derivative work must also be open source and GPL. Your improvements must be shared with the community.</p>
+            <p><strong>AGPL (GNU Affero General Public License):</strong> Stricter than GPL—even if you don't distribute software, if you run it over a network, you must share the source.</p>
+            <p><strong>Best for:</strong> Projects where you want to ensure improvements stay free. Companies avoid GPL for commercial products.</p>
+
+            <h3>Other Licenses</h3>
+            <p><strong>Creative Commons:</strong> Not really software but similar concept. Used for media, documentation.</p>
+            <p><strong>Public Domain:</strong> No restrictions at all. Do anything.</p>
+
+            <div class="key-takeaway">
+              <strong>Key Takeaway:</strong> Check the license before using open source. MIT = maximum freedom. GPL = must share improvements. Different projects have different obligations.
+            </div>
+          </section>
+
+          <section id="famous-projects">
+            <h2>Famous Open Source Projects</h2>
+
+            <h3>Linux</h3>
+            <p>Operating system kernel. Powers 99% of servers, most phones (Android), and supercomputers. Maintained by thousands of developers. Sponsored by major companies (Google, Microsoft, Intel).</p>
+
+            <h3>Apache Web Server</h3>
+            <p>Powers ~40% of websites. The original open source killer app that proved OSS could handle production workloads.</p>
+
+            <h3>Python</h3>
+            <p>Programming language used in data science, web development, and AI. Free, powerful, with a massive community.</p>
+
+            <h3>WordPress</h3>
+            <p>Runs ~40% of websites. A blogging platform you can host yourself and customize completely.</p>
+
+            <h3>Kubernetes</h3>
+            <p>Open source container orchestration. Google open-sourced it, and it became industry standard for managing cloud applications.</p>
+
+            <h3>Firefox</h3>
+            <p>Open source web browser. Competes with Chrome despite being built by volunteers and a non-profit (Mozilla).</p>
+
+            <h3>TensorFlow and PyTorch</h3>
+            <p>Open source machine learning libraries. Google and Meta respectively released them. Now used by millions.</p>
+          </section>
+
+          <section id="open-source-ai">
+            <h2>Open Source AI Models</h2>
+            <p>AI has traditionally been closed (OpenAI, Google, Anthropic). Recently, open source AI is gaining ground.</p>
+
+            <h3>Llama (Meta)</h3>
+            <p>Meta released Llama language models (2B, 7B, 13B, 70B parameters). Powerful enough for production but not as big as GPT-4. Allows modifications and fine-tuning.</p>
+
+            <h3>Mistral and Mixtral</h3>
+            <p>Smaller, efficient open source LLMs. Focused on running on consumer hardware.</p>
+
+            <h3>Stable Diffusion</h3>
+            <p>Open source image generation model. You can run it locally on your GPU, unlike proprietary DALL-E or Midjourney.</p>
+
+            <h3>Whisper</h3>
+            <p>OpenAI's open source speech recognition. Competitive with closed source alternatives.</p>
+
+            <h3>Trade-offs</h3>
+            <p>Open source AI models are smaller and less capable than closed source giants. But they're cheaper to run, can be customized, and don't require cloud APIs.</p>
+          </section>
+
+          <section id="business-models">
+            <h2>Business Models for Open Source</h2>
+
+            <h3>Professional Support and Services</h3>
+            <p>Red Hat provides enterprise Linux support (paying millions for updates, training, 24/7 help). Canonical does the same for Ubuntu.</p>
+
+            <h3>Hosted Services</h3>
+            <p>Provide open source software as a service in the cloud. You can self-host WordPress, but Automattic makes money offering hosted WordPress.</p>
+
+            <h3>Premium Features</h3>
+            <p>Core software is free, but advanced features or versions are paid. This is called freemium.</p>
+
+            <h3>Donations and Sponsorship</h3>
+            <p>Some projects rely on donations (Wikipedia, Linux Foundation) or corporate sponsorship.</p>
+
+            <h3>Dual Licensing</h3>
+            <p>Offer software under open source license and commercial license. Companies can use for free under GPL but pay for closed source rights.</p>
+
+            <h3>Selling Derivative Products</h3>
+            <p>Companies build proprietary software on top of open source. This works if the base is permissive (MIT), not copyleft (GPL).</p>
+
+            <div class="key-takeaway">
+              <strong>Key Takeaway:</strong> Open source doesn't mean developers work for free. They're usually paid by companies, donations, or services they built around the software.
+            </div>
+          </section>
+
+          <div class="ad-slot"><!-- AdSense --></div>
+
+          <section id="how-to-contribute">
+            <h2>How to Contribute to Open Source</h2>
+
+            <h3>Find a Project</h3>
+            <p>Start with something you use: your favorite tool, library, or framework. Find its GitHub repository.</p>
+
+            <h3>Read the Contribution Guide</h3>
+            <p>Most projects have CONTRIBUTING.md with guidelines. Follow them.</p>
+
+            <h3>Start Small</h3>
+            <p>Fix typos, improve documentation, solve simple bugs. Building credibility matters.</p>
+
+            <h3>Communicate First</h3>
+            <p>Check if someone's already working on it. Comment on the issue saying you want to help. Avoid duplicating effort.</p>
+
+            <h3>Make a Pull Request</h3>
+            <p>Branch the code, make your changes, and submit a pull request. Be clear about what you changed and why.</p>
+
+            <h3>Be Patient</h3>
+            <p>Maintainers are volunteers (often). Your PR might take time to review. Don't take feedback personally—the goal is good code.</p>
+
+            <h3>Non-Code Contributions</h3>
+            <p>Projects need writers, designers, translators, and testers. You don't need to code.</p>
+
+            <h3>Resources to Start</h3>
+            <ul>
+              <li>GitHub's "good first issue" tag filters easy tasks for newcomers</li>
+              <li>Hacktoberfest encourages contributions with incentives</li>
+              <li>First Timers Only lists projects welcoming first-time contributors</li>
+            </ul>
+          </section>
+
+          <p><strong>Further reading:</strong> Explore <a href="what-is-an-api.html">APIs</a> which many open source projects provide, and learn about <a href="cloud-computing-explained.html">cloud computing</a> where open source thrives.</p>
+        </div>
+
+        <section class="faq">
+          <h2>Frequently Asked Questions</h2>
+
+          <div class="faq-item">
+            <button class="faq-question">Is open source software always free?</button>
+            <div class="faq-answer">
+              <p>"Free" has two meanings in open source. "Free as in speech" (freedom to use/modify code) is guaranteed. "Free as in beer" (no cost) is typical but not required. Most open source is both, but some commercial projects are open source.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">Can companies profit from open source?</button>
+            <div class="faq-answer">
+              <p>Absolutely. Red Hat built a $34 billion business supporting open source Linux. Companies offer professional support, hosting, premium features, or training. Open source doesn't prevent profit—it changes how you profit.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">What's the difference between MIT and GPL licenses?</button>
+            <div class="faq-answer">
+              <p>MIT is permissive—use it however you want, including in commercial closed source products. GPL requires that derivative works stay open source and be GPL-licensed. GPL is more "viral"—it infects derivative works with the same requirements.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">Is open source less secure than closed source?</button>
+            <div class="faq-answer">
+              <p>No. Many security professionals prefer open source because they can audit the code. However, small or abandoned open source projects can be less secure than well-funded commercial products. Professional open source (Linux, Kubernetes) is very secure.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">Can I use open source code in my commercial product?</button>
+            <div class="faq-answer">
+              <p>Depends on the license. MIT, Apache, BSD licenses allow this. GPL requires your product also be open source. Check the license before using. This matters legally and ethically.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="ad-slot"><!-- AdSense --></div>
+
+        <div class="related-articles">
+          <h2>You Might Also Like</h2>
+          <div class="related-grid" id="relatedArticles" data-current="what-is-open-source" data-category="tech-essentials"></div>
+        </div>
+      </article>
+    </div>
+  </main>
+  <script src="../common.js"></script>
+</body>
+</html>

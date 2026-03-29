@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AISimply - AI & Tech Made Simple</title>
+    <link>https://aisimply-blog.github.io/blog/</link>
+    <atom:link href="https://aisimply-blog.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Learn AI, machine learning, and technology for beginners. Free, bilingual, no tracking.</description>
+    <language>en</language>
+    <copyright>AISimply</copyright>
+    <lastBuildDate>Sat, 29 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <ttl>3600</ttl>
+    <image>
+      <url>https://aisimply-blog.github.io/og-image.svg</url>
+      <title>AISimply</title>
+      <link>https://aisimply-blog.github.io/</link>
+    </image>
+
+    <!-- AI BASICS (1-10) -->
+    <item>
+      <title>What Is Artificial Intelligence? A Complete Beginner's Guide</title>
+      <link>https://aisimply-blog.github.io/blog/what-is-artificial-intelligence.html</link>
+      <guid>aisimply-1</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>AI is everywhere, but what exactly is it? This plain-English guide breaks down artificial intelligence, how it works, and why it matters for your daily life.</description>
+      <content:encoded><![CDATA[AI is everywhere, but what exactly is it? This plain-English guide breaks down artificial intelligence, how it works, and why it matters for your daily life.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Machine Learning Explained: How Computers Learn from Data</title>
+      <link>https://aisimply-blog.github.io/blog/machine-learning-explained.html</link>
+      <guid>aisimply-2</guid>
+      <pubDate>Mon, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>Machine learning lets computers improve without being explicitly programmed. Discover how it works with everyday examples you'll actually understand.</description>
+      <content:encoded><![CDATA[Machine learning lets computers improve without being explicitly programmed. Discover how it works with everyday examples you'll actually understand.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Deep Learning vs Machine Learning: What's the Difference?</title>
+      <link>https://aisimply-blog.github.io/blog/deep-learning-vs-machine-learning.html</link>
+      <guid>aisimply-3</guid>
+      <pubDate>Thu, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>Deep learning and machine learning are related but different. Learn the key distinctions and when each approach is used in the real world.</description>
+      <content:encoded><![CDATA[Deep learning and machine learning are related but different. Learn the key distinctions and when each approach is used in the real world.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How Neural Networks Work: A Simple Visual Explanation</title>
+      <link>https://aisimply-blog.github.io/blog/how-neural-networks-work.html</link>
+      <guid>aisimply-4</guid>
+      <pubDate>Sun, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>Neural networks power most modern AI. This visual guide explains how they process information, layer by layer, without any math jargon.</description>
+      <content:encoded><![CDATA[Neural networks power most modern AI. This visual guide explains how they process information, layer by layer, without any math jargon.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>What Is Natural Language Processing (NLP)? Everyday Examples</title>
+      <link>https://aisimply-blog.github.io/blog/what-is-natural-language-processing.html</link>
+      <guid>aisimply-5</guid>
+      <pubDate>Wed, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>NLP is how AI understands human language. From Siri to spam filters, discover the technology behind machines that read, write, and talk.</description>
+      <content:encoded><![CDATA[NLP is how AI understands human language. From Siri to spam filters, discover the technology behind machines that read, write, and talk.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>What Is Computer Vision? How AI Sees the World</title>
+      <link>https://aisimply-blog.github.io/blog/what-is-computer-vision.html</link>
+      <guid>aisimply-6</guid>
+      <pubDate>Sat, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>Computer vision gives machines the ability to see and interpret images. Learn how it powers everything from face unlock to self-driving cars.</description>
+      <content:encoded><![CDATA[Computer vision gives machines the ability to see and interpret images. Learn how it powers everything from face unlock to self-driving cars.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>What Are Large Language Models (LLMs)? ChatGPT and Beyond</title>
+      <link>https://aisimply-blog.github.io/blog/what-are-large-language-models.html</link>
+      <guid>aisimply-7</guid>
+      <pubDate>Tue, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>LLMs like ChatGPT, Claude, and Gemini have changed how we interact with AI. Understand what they are, how they work, and their limitations.</description>
+      <content:encoded><![CDATA[LLMs like ChatGPT, Claude, and Gemini have changed how we interact with AI. Understand what they are, how they work, and their limitations.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>AI Ethics: A Beginner's Guide to Responsible AI</title>
+      <link>https://aisimply-blog.github.io/blog/ai-ethics-beginners-guide.html</link>
+      <guid>aisimply-8</guid>
+      <pubDate>Fri, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>AI raises important ethical questions about bias, privacy, and jobs. This guide covers the key issues everyone should understand.</description>
+      <content:encoded><![CDATA[AI raises important ethical questions about bias, privacy, and jobs. This guide covers the key issues everyone should understand.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>A Brief History of AI: From Turing to ChatGPT</title>
+      <link>https://aisimply-blog.github.io/blog/history-of-artificial-intelligence.html</link>
+      <guid>aisimply-9</guid>
+      <pubDate>Mon, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>AI didn't start with ChatGPT. Explore the fascinating 70-year journey from Alan Turing's ideas to today's generative AI revolution.</description>
+      <content:encoded><![CDATA[AI didn't start with ChatGPT. Explore the fascinating 70-year journey from Alan Turing's ideas to today's generative AI revolution.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>What Is Generative AI? How It Creates Text, Images, and More</title>
+      <link>https://aisimply-blog.github.io/blog/what-is-generative-ai.html</link>
+      <guid>aisimply-10</guid>
+      <pubDate>Thu, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Basics</category>
+      <description>Generative AI can write essays, create art, compose music, and even code. Learn what makes it different and how it actually generates content.</description>
+      <content:encoded><![CDATA[Generative AI can write essays, create art, compose music, and even code. Learn what makes it different and how it actually generates content.]]></content:encoded>
+    </item>
+
+    <!-- AI TOOLS (11-25) -->
+    <item>
+      <title>Best Free AI Chatbots in 2026: Compared and Ranked</title>
+      <link>https://aisimply-blog.github.io/blog/best-free-ai-chatbots.html</link>
+      <guid>aisimply-11</guid>
+      <pubDate>Sun, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>From ChatGPT to Claude to Gemini, we compare the top free AI chatbots. Find out which one is best for your specific needs.</description>
+      <content:encoded><![CDATA[From ChatGPT to Claude to Gemini, we compare the top free AI chatbots. Find out which one is best for your specific needs.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Image Generators: Free and Paid Options Compared</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-image-generators.html</link>
+      <guid>aisimply-12</guid>
+      <pubDate>Wed, 01 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Create stunning images from text descriptions. We compare Midjourney, DALL-E, Stable Diffusion, and more to help you choose.</description>
+      <content:encoded><![CDATA[Create stunning images from text descriptions. We compare Midjourney, DALL-E, Stable Diffusion, and more to help you choose.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Writing Tools for Beginners in 2026</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-writing-tools.html</link>
+      <guid>aisimply-13</guid>
+      <pubDate>Sat, 04 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Whether you need help with emails, essays, or blog posts, these AI writing tools will boost your productivity without replacing your voice.</description>
+      <content:encoded><![CDATA[Whether you need help with emails, essays, or blog posts, these AI writing tools will boost your productivity without replacing your voice.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Coding Assistants: GitHub Copilot vs Alternatives</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-coding-assistants.html</link>
+      <guid>aisimply-14</guid>
+      <pubDate>Tue, 07 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>AI coding assistants can write, debug, and explain code. Compare GitHub Copilot, Cursor, Cody, and other top options for developers.</description>
+      <content:encoded><![CDATA[AI coding assistants can write, debug, and explain code. Compare GitHub Copilot, Cursor, Cody, and other top options for developers.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Video Generators You Can Try for Free</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-video-generators.html</link>
+      <guid>aisimply-15</guid>
+      <pubDate>Fri, 10 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Create professional-looking videos without filming. Discover the top AI video generators, from Sora to Runway and beyond.</description>
+      <content:encoded><![CDATA[Create professional-looking videos without filming. Discover the top AI video generators, from Sora to Runway and beyond.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Music Generators: Create Songs in Minutes</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-music-generators.html</link>
+      <guid>aisimply-16</guid>
+      <pubDate>Mon, 13 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Make music without instruments or training. These AI music generators let anyone create original songs, beats, and soundtracks.</description>
+      <content:encoded><![CDATA[Make music without instruments or training. These AI music generators let anyone create original songs, beats, and soundtracks.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Presentation Tools to Create Slides Instantly</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-presentation-tools.html</link>
+      <guid>aisimply-17</guid>
+      <pubDate>Thu, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Stop spending hours on slides. These AI tools generate beautiful presentations from a simple text prompt or outline.</description>
+      <content:encoded><![CDATA[Stop spending hours on slides. These AI tools generate beautiful presentations from a simple text prompt or outline.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Productivity Tools to Save Hours Every Week</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-productivity-tools.html</link>
+      <guid>aisimply-18</guid>
+      <pubDate>Sun, 19 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>From smart email management to automated scheduling, these AI productivity tools will reclaim your time and boost your efficiency.</description>
+      <content:encoded><![CDATA[From smart email management to automated scheduling, these AI productivity tools will reclaim your time and boost your efficiency.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best Platforms to Learn AI and Machine Learning for Free</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-learning-platforms.html</link>
+      <guid>aisimply-19</guid>
+      <pubDate>Wed, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Want to go deeper into AI? These free learning platforms offer courses from beginner to advanced, taught by top universities and experts.</description>
+      <content:encoded><![CDATA[Want to go deeper into AI? These free learning platforms offer courses from beginner to advanced, taught by top universities and experts.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>ChatGPT vs Gemini vs Claude: Which AI Assistant Is Best?</title>
+      <link>https://aisimply-blog.github.io/blog/chatgpt-vs-gemini-vs-claude.html</link>
+      <guid>aisimply-20</guid>
+      <pubDate>Sat, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>The three biggest AI assistants go head-to-head. We compare features, strengths, weaknesses, and pricing to help you choose.</description>
+      <content:encoded><![CDATA[The three biggest AI assistants go head-to-head. We compare features, strengths, weaknesses, and pricing to help you choose.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Photo Editors: Remove Backgrounds, Enhance, and More</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-photo-editors.html</link>
+      <guid>aisimply-21</guid>
+      <pubDate>Tue, 28 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Edit photos like a pro without Photoshop skills. These AI photo editors handle background removal, enhancement, and retouching automatically.</description>
+      <content:encoded><![CDATA[Edit photos like a pro without Photoshop skills. These AI photo editors handle background removal, enhancement, and retouching automatically.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Translation Tools: Beyond Google Translate</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-translation-tools.html</link>
+      <guid>aisimply-22</guid>
+      <pubDate>Fri, 31 May 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>AI translation has come a long way. Discover tools that deliver near-human quality translations for documents, conversations, and websites.</description>
+      <content:encoded><![CDATA[AI translation has come a long way. Discover tools that deliver near-human quality translations for documents, conversations, and websites.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Note-Taking Apps That Summarize Your Meetings</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-note-taking-apps.html</link>
+      <guid>aisimply-23</guid>
+      <pubDate>Mon, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Never miss a detail in meetings again. These AI note-taking apps record, transcribe, and summarize your conversations automatically.</description>
+      <content:encoded><![CDATA[Never miss a detail in meetings again. These AI note-taking apps record, transcribe, and summarize your conversations automatically.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Best AI Resume Builders to Land Your Next Job</title>
+      <link>https://aisimply-blog.github.io/blog/best-ai-resume-builders.html</link>
+      <guid>aisimply-24</guid>
+      <pubDate>Thu, 06 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>Let AI help you craft a winning resume. These tools optimize your CV for ATS systems and highlight your strengths effectively.</description>
+      <content:encoded><![CDATA[Let AI help you craft a winning resume. These tools optimize your CV for ATS systems and highlight your strengths effectively.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>15 Best Free AI Tools Every Student Should Know</title>
+      <link>https://aisimply-blog.github.io/blog/best-free-ai-tools-students.html</link>
+      <guid>aisimply-25</guid>
+      <pubDate>Sun, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools</category>
+      <description>From research assistants to study aids, these free AI tools will make your student life easier and more productive.</description>
+      <content:encoded><![CDATA[From research assistants to study aids, these free AI tools will make your student life easier and more productive.]]></content:encoded>
+    </item>
+
+    <!-- HOW-TO GUIDES (26-40) -->
+    <item>
+      <title>How to Use ChatGPT: A Step-by-Step Beginner's Guide</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-use-chatgpt-beginners.html</link>
+      <guid>aisimply-26</guid>
+      <pubDate>Wed, 12 Jun 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>New to ChatGPT? This hands-on guide walks you through setup, your first conversation, and tips to get the most out of it.</description>
+      <content:encoded><![CDATA[New to ChatGPT? This hands-on guide walks you through setup, your first conversation, and tips to get the most out of it.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Write Effective AI Prompts: The Complete Guide</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-write-ai-prompts.html</link>
+      <guid>aisimply-27</guid>
+      <pubDate>Sat, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>The quality of AI output depends on your prompts. Master the art of prompt engineering with practical techniques and real examples.</description>
+      <content:encoded><![CDATA[The quality of AI output depends on your prompts. Master the art of prompt engineering with practical techniques and real examples.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Create AI Images: A Beginner's Tutorial</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-create-ai-images.html</link>
+      <guid>aisimply-28</guid>
+      <pubDate>Tue, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>Learn to generate stunning images with AI. This tutorial covers prompting techniques, style control, and the best free tools to start with.</description>
+      <content:encoded><![CDATA[Learn to generate stunning images with AI. This tutorial covers prompting techniques, style control, and the best free tools to start with.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Use AI for Studying: Smarter Learning Strategies</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-use-ai-for-studying.html</link>
+      <guid>aisimply-29</guid>
+      <pubDate>Fri, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>AI can be your ultimate study buddy. Learn how to use it for note-taking, flashcards, practice questions, and understanding complex topics.</description>
+      <content:encoded><![CDATA[AI can be your ultimate study buddy. Learn how to use it for note-taking, flashcards, practice questions, and understanding complex topics.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Automate Repetitive Tasks with AI Tools</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-automate-tasks-with-ai.html</link>
+      <guid>aisimply-30</guid>
+      <pubDate>Mon, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>Stop doing the same tasks manually. Learn how to use AI automation tools like Zapier, Make, and AI assistants to save hours every week.</description>
+      <content:encoded><![CDATA[Stop doing the same tasks manually. Learn how to use AI automation tools like Zapier, Make, and AI assistants to save hours every week.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Use AI for Writing: Emails, Essays, and More</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-use-ai-for-writing.html</link>
+      <guid>aisimply-31</guid>
+      <pubDate>Thu, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>AI can help you write better and faster. Learn practical techniques for drafting emails, essays, reports, and creative content with AI assistance.</description>
+      <content:encoded><![CDATA[AI can help you write better and faster. Learn practical techniques for drafting emails, essays, reports, and creative content with AI assistance.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Build an AI Chatbot Without Coding</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-build-chatbot-no-code.html</link>
+      <guid>aisimply-32</guid>
+      <pubDate>Sun, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>You don't need to be a developer to create an AI chatbot. This guide shows you how to build one using no-code platforms in under an hour.</description>
+      <content:encoded><![CDATA[You don't need to be a developer to create an AI chatbot. This guide shows you how to build one using no-code platforms in under an hour.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Use AI for Your Job Search in 2026</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-use-ai-for-job-search.html</link>
+      <guid>aisimply-33</guid>
+      <pubDate>Wed, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>From optimizing your resume to preparing for interviews, AI can supercharge your job search. Here are the best strategies and tools.</description>
+      <content:encoded><![CDATA[From optimizing your resume to preparing for interviews, AI can supercharge your job search. Here are the best strategies and tools.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Fact-Check AI Responses: Don't Trust Blindly</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-fact-check-ai-responses.html</link>
+      <guid>aisimply-34</guid>
+      <pubDate>Sat, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>AI can be confidently wrong. Learn how to verify AI-generated information, spot hallucinations, and develop critical thinking habits.</description>
+      <content:encoded><![CDATA[AI can be confidently wrong. Learn how to verify AI-generated information, spot hallucinations, and develop critical thinking habits.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Protect Your Privacy in the Age of AI</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-protect-privacy-from-ai.html</link>
+      <guid>aisimply-35</guid>
+      <pubDate>Tue, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>AI systems collect and process vast amounts of data. Learn practical steps to protect your personal information while still using AI tools.</description>
+      <content:encoded><![CDATA[AI systems collect and process vast amounts of data. Learn practical steps to protect your personal information while still using AI tools.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Use AI for Your Small Business: A Practical Guide</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-use-ai-for-small-business.html</link>
+      <guid>aisimply-36</guid>
+      <pubDate>Fri, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>AI isn't just for big companies. Discover affordable AI tools and strategies that can help your small business compete and grow.</description>
+      <content:encoded><![CDATA[AI isn't just for big companies. Discover affordable AI tools and strategies that can help your small business compete and grow.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Create AI Videos: From Script to Screen</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-create-ai-videos.html</link>
+      <guid>aisimply-37</guid>
+      <pubDate>Mon, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>Learn how to generate videos using AI, from writing scripts to creating visuals and adding voiceovers. No video editing skills required.</description>
+      <content:encoded><![CDATA[Learn how to generate videos using AI, from writing scripts to creating visuals and adding voiceovers. No video editing skills required.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Use Midjourney: Create Stunning AI Art</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-use-midjourney.html</link>
+      <guid>aisimply-38</guid>
+      <pubDate>Thu, 18 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>Midjourney creates breathtaking images from text. This step-by-step guide covers setup, prompting tips, and advanced techniques.</description>
+      <content:encoded><![CDATA[Midjourney creates breathtaking images from text. This step-by-step guide covers setup, prompting tips, and advanced techniques.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Can You Train Your Own AI? A Beginner's Overview</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-train-custom-ai-model.html</link>
+      <guid>aisimply-39</guid>
+      <pubDate>Sun, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>Training a custom AI model sounds complex, but there are accessible ways to get started. Learn about fine-tuning, no-code options, and more.</description>
+      <content:encoded><![CDATA[Training a custom AI model sounds complex, but there are accessible ways to get started. Learn about fine-tuning, no-code options, and more.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>How to Use AI for Meal Planning and Cooking Ideas</title>
+      <link>https://aisimply-blog.github.io/blog/how-to-use-ai-for-cooking.html</link>
+      <guid>aisimply-40</guid>
+      <pubDate>Wed, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <category>How-To Guides</category>
+      <description>Stuck on what to cook? AI can generate recipes from ingredients you have, plan weekly meals, and even account for dietary restrictions.</description>
+      <content:encoded><![CDATA[Stuck on what to cook? AI can generate recipes from ingredients you have, plan weekly meals, and even account for dietary restrictions.]]></content:encoded>
+    </item>
+
+    <!-- TECH ESSENTIALS (41-50) -->
+    <item>
+      <title>Cloud Computing Explained: What It Is and Why It Matters</title>
+      <link>https://aisimply-blog.github.io/blog/cloud-computing-explained.html</link>
+      <guid>aisimply-41</guid>
+      <pubDate>Sat, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>You use the cloud every day without realizing it. Understand what cloud computing means, how it works, and why it changed everything.</description>
+      <content:encoded><![CDATA[You use the cloud every day without realizing it. Understand what cloud computing means, how it works, and why it changed everything.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>What Is an API? A Simple Explanation for Non-Developers</title>
+      <link>https://aisimply-blog.github.io/blog/what-is-an-api.html</link>
+      <guid>aisimply-42</guid>
+      <pubDate>Tue, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>APIs are the invisible glue of the internet. This jargon-free explanation helps you understand what APIs do and why they matter.</description>
+      <content:encoded><![CDATA[APIs are the invisible glue of the internet. This jargon-free explanation helps you understand what APIs do and why they matter.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Cybersecurity Basics: How to Stay Safe Online in 2026</title>
+      <link>https://aisimply-blog.github.io/blog/cybersecurity-basics-beginners.html</link>
+      <guid>aisimply-43</guid>
+      <pubDate>Fri, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>Protect yourself from hackers, scams, and data breaches. This practical guide covers passwords, phishing, VPNs, and essential security habits.</description>
+      <content:encoded><![CDATA[Protect yourself from hackers, scams, and data breaches. This practical guide covers passwords, phishing, VPNs, and essential security habits.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>What Is Blockchain? A Simple Explanation Without the Hype</title>
+      <link>https://aisimply-blog.github.io/blog/what-is-blockchain-simple.html</link>
+      <guid>aisimply-44</guid>
+      <pubDate>Mon, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>Beyond the crypto buzz, blockchain is a fascinating technology. Learn how it actually works and where it's being used beyond cryptocurrency.</description>
+      <content:encoded><![CDATA[Beyond the crypto buzz, blockchain is a fascinating technology. Learn how it actually works and where it's being used beyond cryptocurrency.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>The Internet of Things (IoT) Explained: Your Smart Home Guide</title>
+      <link>https://aisimply-blog.github.io/blog/internet-of-things-explained.html</link>
+      <guid>aisimply-45</guid>
+      <pubDate>Thu, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>Smart speakers, connected thermostats, robot vacuums — welcome to IoT. Understand how these devices work together and what to watch out for.</description>
+      <content:encoded><![CDATA[Smart speakers, connected thermostats, robot vacuums — welcome to IoT. Understand how these devices work together and what to watch out for.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>What Is Open Source? Why Free Software Matters</title>
+      <link>https://aisimply-blog.github.io/blog/what-is-open-source.html</link>
+      <guid>aisimply-46</guid>
+      <pubDate>Sun, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>Open source powers most of the internet. Learn what it means, why companies give away code for free, and how it affects you.</description>
+      <content:encoded><![CDATA[Open source powers most of the internet. Learn what it means, why companies give away code for free, and how it affects you.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>VPNs Explained: Do You Really Need One?</title>
+      <link>https://aisimply-blog.github.io/blog/vpn-explained-beginners.html</link>
+      <guid>aisimply-47</guid>
+      <pubDate>Wed, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>VPN ads are everywhere, but do you actually need one? Get an honest, unbiased breakdown of what VPNs do, their limits, and when they help.</description>
+      <content:encoded><![CDATA[VPN ads are everywhere, but do you actually need one? Get an honest, unbiased breakdown of what VPNs do, their limits, and when they help.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Quantum Computing for Beginners: What You Need to Know</title>
+      <link>https://aisimply-blog.github.io/blog/quantum-computing-beginners.html</link>
+      <guid>aisimply-48</guid>
+      <pubDate>Sat, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>Quantum computers promise to revolutionize computing. Understand the basics of qubits, superposition, and why it matters for the future.</description>
+      <content:encoded><![CDATA[Quantum computers promise to revolutionize computing. Understand the basics of qubits, superposition, and why it matters for the future.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Will AI Replace My Job? What Experts Actually Say</title>
+      <link>https://aisimply-blog.github.io/blog/will-ai-replace-my-job.html</link>
+      <guid>aisimply-49</guid>
+      <pubDate>Tue, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>The most-asked question about AI. We look at the research, expert opinions, and data to give you a realistic and reassuring answer.</description>
+      <content:encoded><![CDATA[The most-asked question about AI. We look at the research, expert opinions, and data to give you a realistic and reassuring answer.]]></content:encoded>
+    </item>
+
+    <item>
+      <title>AI Glossary: 50 Terms Every Beginner Should Know</title>
+      <link>https://aisimply-blog.github.io/blog/ai-glossary-beginners.html</link>
+      <guid>aisimply-50</guid>
+      <pubDate>Fri, 23 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Tech Essentials</category>
+      <description>From algorithms to zero-shot learning, this comprehensive glossary defines the AI terms you keep seeing. Bookmark this one.</description>
+      <content:encoded><![CDATA[From algorithms to zero-shot learning, this comprehensive glossary defines the AI terms you keep seeing. Bookmark this one.]]></content:encoded>
+    </item>
+  </channel>
+</rss>

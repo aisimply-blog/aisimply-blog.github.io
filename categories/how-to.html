@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How-To Guides | AISimply</title>
+  <meta name="description" content="Step-by-step tutorials to get started with AI. Learn how to use ChatGPT, create images, automate tasks, and more.">
+  <meta name="canonical" href="https://aisimply-blog.github.io/categories/how-to.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="How-To Guides | AISimply">
+  <meta property="og:description" content="Step-by-step tutorials to help you get started with AI and automation.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/categories/how-to.html">
+  <meta property="og:image" content="https://aisimply-blog.github.io/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/how-to.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/how-to.html">
+  <link rel="alternate" hreflang="x-default" href="https://aisimply-blog.github.io/categories/how-to.html">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "How-To Guides",
+    "description": "Step-by-step tutorials to get started with AI",
+    "url": "https://aisimply-blog.github.io/categories/how-to.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "AISimply",
+      "url": "https://aisimply-blog.github.io"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <main class="container category-page">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="separator">/</span>
+      <span>How-To Guides</span>
+    </div>
+
+    <!-- Category Header -->
+    <div class="category-header">
+      <h1>How-To Guides</h1>
+      <p>Step-by-step tutorials to get started with AI</p>
+      <div class="category-count">
+        <span id="categoryCount">15</span> articles
+      </div>
+    </div>
+
+    <!-- Articles Grid -->
+    <div id="categoryGrid" class="article-grid" data-category="how-to"></div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../common.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof injectHeader === 'function') injectHeader();
+      if (typeof injectFooter === 'function') injectFooter();
+      if (typeof initializeCategoryPage === 'function') initializeCategoryPage();
+    });
+  </script>
+</body>
+</html>

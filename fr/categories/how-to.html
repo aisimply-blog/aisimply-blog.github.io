@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guides Pratiques | AISimply</title>
+  <meta name="description" content="Tutoriels pas à pas pour démarrer avec l'IA. Apprenez à utiliser ChatGPT, créer des images, automatiser des tâches, et plus.">
+  <meta name="canonical" href="https://aisimply-blog.github.io/fr/categories/how-to.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Guides Pratiques | AISimply">
+  <meta property="og:description" content="Tutoriels pas à pas pour vous aider à démarrer avec l'IA et l'automatisation.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/fr/categories/how-to.html">
+  <meta property="og:image" content="https://aisimply-blog.github.io/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/how-to.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/how-to.html">
+  <link rel="alternate" hreflang="x-default" href="https://aisimply-blog.github.io/categories/how-to.html">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../../style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Guides Pratiques",
+    "description": "Tutoriels pas à pas pour démarrer avec l'IA",
+    "url": "https://aisimply-blog.github.io/fr/categories/how-to.html",
+    "inLanguage": "fr",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "AISimply",
+      "url": "https://aisimply-blog.github.io"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <main class="container category-page">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="../../index.html">Accueil</a>
+      <span class="separator">/</span>
+      <span>Guides Pratiques</span>
+    </div>
+
+    <!-- Category Header -->
+    <div class="category-header">
+      <h1>Guides Pratiques</h1>
+      <p>Tutoriels pas à pas pour démarrer avec l'IA</p>
+      <div class="category-count">
+        <span id="categoryCount">15</span> articles
+      </div>
+    </div>
+
+    <!-- Articles Grid -->
+    <div id="categoryGrid" class="article-grid" data-category="how-to"></div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../../common.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof injectHeader === 'function') injectHeader();
+      if (typeof injectFooter === 'function') injectFooter();
+      if (typeof initializeCategoryPage === 'function') initializeCategoryPage();
+    });
+  </script>
+</body>
+</html>

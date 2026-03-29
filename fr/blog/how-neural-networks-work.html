@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment fonctionnent les réseaux de neurones : explication visuelle | AISimply</title>
+  <meta name="description" content="Découvrez comment les réseaux de neurones imitent le cerveau humain. Explication visuelle et intuitive des mécanismes d'apprentissage profond.">
+  <meta name="keywords" content="réseaux de neurones, neurones artificiels, deep learning, apprentissage profond, rétropropagation">
+  <link rel="canonical" href="https://aisimply-blog.github.io/fr/blog/how-neural-networks-work.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Comment fonctionnent les réseaux de neurones : explication visuelle">
+  <meta property="og:description" content="Découvrez comment les réseaux de neurones imitent le cerveau humain et apprennent à travers les données.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/fr/blog/how-neural-networks-work.html">
+  <meta property="og:site_name" content="AISimply">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/blog/how-neural-networks-work.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/blog/how-neural-networks-work.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../../style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Comment fonctionnent les réseaux de neurones : explication visuelle",
+    "description": "Découvrez comment les réseaux de neurones imitent le cerveau humain et apprennent à travers les données.",
+    "datePublished": "2026-04-07",
+    "inLanguage": "fr",
+    "author": {"@type": "Organization", "name": "AISimply"},
+    "publisher": {"@type": "Organization", "name": "AISimply"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Pourquoi les réseaux de neurones sont-ils appelés ainsi ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Parce qu'ils s'inspirent de la structure du cerveau biologique, où des neurones communiquent via des synapses. Un neurone artificiel reçoit des entrées, les traite, et produit une sortie, imitant ce processus biologique."}
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://aisimply-blog.github.io/fr/index.html"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aisimply-blog.github.io/fr/blog/index.html"},
+      {"@type": "ListItem", "position": 3, "name": "Comment fonctionnent les réseaux de neurones"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="reading-progress"></div>
+  <main class="article-page">
+    <div class="container content-container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Accueil</a> <span class="separator">/</span>
+        <a href="index.html">Blog</a> <span class="separator">/</span>
+        <span>Réseaux de neurones</span>
+      </nav>
+      <article>
+        <header class="article-header">
+          <h1>Comment fonctionnent les réseaux de neurones : explication visuelle</h1>
+          <div class="article-meta">
+            <span>Publié le : 7 avril 2026</span>
+            <span>&#9200; 10 min de lecture</span>
+            <span>Catégorie : Bases de l'IA</span>
+          </div>
+        </header>
+        <div class="ad-slot"><!-- AdSense --></div>
+        <nav class="toc">
+          <h2>Sommaire</h2>
+          <ul>
+            <li><a href="#inspiration">L'inspiration biologique</a></li>
+            <li><a href="#neurone">Le neurone artificiel</a></li>
+            <li><a href="#architecture">Architecture et couches</a></li>
+            <li><a href="#apprentissage">Comment apprennent-ils ?</a></li>
+            <li><a href="#types">Types de réseaux</a></li>
+          </ul>
+        </nav>
+        <div class="article-body">
+          <p>Les réseaux de neurones sont au cœur du deep learning moderne. Ils alimentent ChatGPT, la reconnaissance faciale, et les traductions automatiques. Pourtant, pour beaucoup, ils restent mystérieux. Dans cet article, nous démystifions leur fonctionnement en partant de l'inspiration biologique et en progressant progressivement jusqu'à la complexité du deep learning.</p>
+
+          <h2 id="inspiration">L'inspiration biologique</h2>
+
+          <p>Votre cerveau contient environ 86 milliards de neurones. Chaque neurone reçoit des signaux électrochimiques des autres neurones via des connexions appelées synapses. Si le signal dépasse un certain seuil, le neurone « s'active » et envoie un signal à d'autres neurones. C'est fondamentalement un processus binaire : activé ou pas.</p>
+
+          <p>Les réseaux de neurones artificiels imitent ce concept, mais de manière extrêmement simplifiée. Au lieu de 86 milliards de neurones complexes, nous utilisons des unités mathématiques simples. Mais ensemble, elles créent une puissance remarquable.</p>
+
+          <div class="key-takeaway">
+            <strong>Clé :</strong> Les réseaux de neurones artificiels s'inspirent du cerveau biologique mais en sont une abstraction mathématique bien plus simple.
+          </div>
+
+          <h2 id="neurone">Le neurone artificiel : le bloc de base</h2>
+
+          <p>Un neurone artificiel reçoit plusieurs entrées numériques, en donne à chacune un poids, les additionne, puis applique une fonction non-linéaire. Voici comment :</p>
+
+          <h3>Étape 1 : Les entrées</h3>
+          <p>Supposons qu'un neurone reçoit trois entrées : x1 = 0.5, x2 = 1.0, x3 = 0.8. Ce pourraient être des pixels d'une image, des caractéristiques d'un données client, ou les sorties d'autres neurones.</p>
+
+          <h3>Étape 2 : Les poids</h3>
+          <p>Chaque entrée a un poids (w) qui détermine son importance. Supposons w1 = 2.0, w2 = -1.0, w3 = 0.5. Ces poids sont ce qui change pendant l'apprentissage. C'est « comment » le neurone apprend.</p>
+
+          <h3>Étape 3 : La somme pondérée</h3>
+          <p>z = (0.5 × 2.0) + (1.0 × -1.0) + (0.8 × 0.5) + b = 1.0 - 1.0 + 0.4 + 0.3 = 0.7</p>
+
+          <p>Ici, « b » est le biais (bias), un paramètre supplémentaire qui ajoute de la flexibilité. Les poids et le biais sont les paramètres que le réseau ajuste pour apprendre.</p>
+
+          <h3>Étape 4 : La fonction d'activation</h3>
+          <p>La somme brute (0.7) est passée à travers une fonction non-linéaire appelée fonction d'activation. Les plus courantes sont :</p>
+
+          <ul>
+            <li><strong>ReLU (Rectified Linear Unit) :</strong> Si z &gt; 0, retourne z. Sinon, retourne 0.</li>
+            <li><strong>Sigmoid :</strong> Compress z entre 0 et 1. Utile pour la classification binaire.</li>
+            <li><strong>Tanh :</strong> Similaire à sigmoid mais entre -1 et 1.</li>
+          </ul>
+
+          <p>Avec ReLU, notre neurone produirait 0.7. Ces fonctions d'activation ajoutent de la non-linéarité, ce qui donne aux réseaux de neurones leur puissance.</p>
+
+          <h2 id="architecture">Architecture : comment les neurones s'assemblent</h2>
+
+          <h3>Couche d'entrée (Input Layer)</h3>
+          <p>Chaque neurone dans cette couche représente une caractéristique d'entrée. Pour une image 28×28 pixels (comme dans MNIST, un dataset classique de chiffres manuscrits), il y aurait 784 neurones.</p>
+
+          <h3>Couches cachées (Hidden Layers)</h3>
+          <p>Entre l'entrée et la sortie, il y a une ou plusieurs couches cachées. Chaque neurone d'une couche cachée est connecté à tous les neurones de la couche précédente (c'est un réseau « complètement connecté »). C'est ici que la magie du deep learning opère. Plus de couches = plus de capacité à apprendre des motifs complexes, mais aussi plus de données et de temps d'entraînement nécessaires.</p>
+
+          <h3>Couche de sortie (Output Layer)</h3>
+          <p>La dernière couche produit les prédictions. Pour la classification de chiffres, il y aurait 10 neurones (un pour chaque chiffre 0-9). Chaque neurone produit un score. Le chiffre avec le score le plus élevé est la prédiction.</p>
+
+          <div class="ad-slot"><!-- AdSense --></div>
+
+          <h2 id="apprentissage">Comment les réseaux de neurones apprennent</h2>
+
+          <h3>L'idée générale : minimiser l'erreur</h3>
+          <p>Imaginez que vous apprenez à jouer au tennis. Chaque coup, vous observez si la balle va trop à gauche, à droite, ou sur cible. Vous ajustez subtillement votre mouvement. Après des centaines de tentatives, votre swing s'améliore.</p>
+
+          <p>Les réseaux de neurones fonctionnent pareillement. Ils font une prédiction, vérifient si c'est correct, mesurent l'erreur, et ajustent les poids pour réduire cette erreur.</p>
+
+          <h3>Rétropropagation (Backpropagation)</h3>
+          <p>C'est l'algorithme magique qui permet aux réseaux de neurones d'apprendre. Voici la procédure simplifiée :</p>
+
+          <ol>
+            <li><strong>Forward pass :</strong> Les données passent par le réseau, couche par couche, produisant une prédiction.</li>
+            <li><strong>Calculer l'erreur :</strong> Comparer la prédiction à la valeur réelle. L'erreur est souvent mesuré avec l'entropie croisée ou l'erreur quadratique moyenne.</li>
+            <li><strong>Backward pass :</strong> À partir de la couche de sortie, calculer comment chaque poids a contribué à cette erreur. Cela se fait grâce au calcul de gradient (dérivées).</li>
+            <li><strong>Mettre à jour les poids :</strong> Ajuster chaque poids légèrement dans la direction qui réduit l'erreur. L'ampleur de l'ajustement est contrôlée par un paramètre appelé le « taux d'apprentissage ».</li>
+          </ol>
+
+          <p>Ce cycle se répète des milliers ou des millions de fois, jusqu'à ce que les prédictions deviennent précises.</p>
+
+          <div class="key-takeaway">
+            <strong>À comprendre :</strong> La rétropropagation permet au réseau d'ajuster ses millions de paramètres pour minimiser l'erreur. C'est le secret du deep learning.
+          </div>
+
+          <h2 id="types">Types spécialisés de réseaux de neurones</h2>
+
+          <h3>Réseaux de neurones convolutifs (CNN)</h3>
+          <p>Spécialisés pour la vision par ordinateur. Au lieu d'être complètement connectés, ils utilisent des « convolutions » : des petits filtres qui glissent sur l'image, détectant des caractéristiques locales (arêtes, coins, textures). Les CNN sont utilisés pour reconnaître les chats, valider les documents, identifier les tumeurs.</p>
+
+          <h3>Réseaux de neurones récurrents (RNN)</h3>
+          <p>Spécialisés pour les séquences : texte, parole, séries temporelles. Ils ont une « mémoire » : la sortie dépend non seulement de l'entrée actuelle, mais aussi des entrées précédentes. Les variants comme LSTM et GRU sont couramment utilisés.</p>
+
+          <h3>Transformers</h3>
+          <p>L'architecture moderne pour le traitement du langage naturel. ChatGPT, Claude, et d'autres grands modèles de langage utilisent des transformers. Ils utilisent un mécanisme appelé « attention » pour déterminer quelles parties du texte sont les plus importantes. Apprenez plus sur les <a href="what-are-large-language-models.html">grands modèles de langage</a>.</p>
+
+          <h2>Limitations et considérations pratiques</h2>
+
+          <p>Bien que puissants, les réseaux de neurones ont des limitations :</p>
+
+          <ul>
+            <li><strong>Besoin de beaucoup de données :</strong> Les petits réseaux de neurones peuvent fonctionner avec des milliers de données, mais les grands modèles profonds en exigent des millions.</li>
+            <li><strong>Puissance de calcul :</strong> L'entraînement de gros réseaux de neurones profonds nécessite des GPUs coûteux et beaucoup d'électricité.</li>
+            <li><strong>Boîte noire :</strong> Il est difficile d'interpréter précisément pourquoi un neurone a activé ou quelles caractéristiques il a appris.</li>
+            <li><strong>Sensibilité aux paramètres :</strong> Le choix du taux d'apprentissage, le nombre de couches, et d'autres « hyperparamètres » affectent énormément les résultats.</li>
+          </ul>
+
+          <p>Malgré ces défis, les réseaux de neurones restent l'outil le plus puissant du machine learning moderne, capable d'accomplir des tâches qui semblaient impossibles il y a une décennie.</p>
+        </div>
+
+        <section class="faq">
+          <h2>Questions fréquentes</h2>
+          <div class="faq-item">
+            <h3>Pourquoi les réseaux de neurones sont-ils appelés "profonds" ?</h3>
+            <p>« Profond » fait référence au nombre de couches cachées. Un réseau avec 10 couches est plus profond qu'un avec 3 couches. Les réseaux profonds peuvent apprendre des représentations plus complexes, ce qui les rend plus puissants pour les tâches difficiles.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Est-ce qu'un réseau de neurones peut apprendre n'importe quoi ?</h3>
+            <p>Théoriquement, oui (selon le théorème d'approximation universelle). En pratique, il y a des limites : besoin de données représentatives, risque de surapprentissage, et défi informatique pour les problèmes extrêmement complexes.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Qu'est-ce que le surapprentissage ?</h3>
+            <p>Le surapprentissage (overfitting) survient quand un réseau mémorise les données d'entraînement au lieu d'apprendre les motifs généraux. Il performe bien sur les données d'entraînement mais échoue sur de nouvelles données. Découvrez plus sur <a href="deep-learning-vs-machine-learning.html">deep learning vs machine learning</a>.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Combien de couches devrait avoir mon réseau ?</h3>
+            <p>Cela dépend du problème. Commencez par peu de couches, augmentez progressivement si nécessaire. Trop de couches sans assez de données causent le surapprentissage. C'est un domaine où l'expérimentation et l'intuition jouent un rôle énorme.</p>
+          </div>
+        </section>
+
+        <div class="ad-slot"><!-- AdSense --></div>
+
+        <div class="related-articles">
+          <h2>Articles similaires</h2>
+          <div class="related-grid" id="relatedArticles" data-current="how-neural-networks-work" data-category="ai-basics"></div>
+        </div>
+      </article>
+    </div>
+  </main>
+  <script src="../../common.js"></script>
+</body>
+</html>

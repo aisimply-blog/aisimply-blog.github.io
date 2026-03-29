@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Essentials | AISimply</title>
+  <meta name="description" content="Core technology concepts explained simply. Cloud computing, APIs, cybersecurity, blockchain, IoT, quantum computing, and more.">
+  <meta name="canonical" href="https://aisimply-blog.github.io/categories/tech-essentials.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tech Essentials | AISimply">
+  <meta property="og:description" content="Core technology concepts explained simply for everyone.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/categories/tech-essentials.html">
+  <meta property="og:image" content="https://aisimply-blog.github.io/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/tech-essentials.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/tech-essentials.html">
+  <link rel="alternate" hreflang="x-default" href="https://aisimply-blog.github.io/categories/tech-essentials.html">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Tech Essentials",
+    "description": "Core technology concepts explained simply",
+    "url": "https://aisimply-blog.github.io/categories/tech-essentials.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "AISimply",
+      "url": "https://aisimply-blog.github.io"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <main class="container category-page">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="separator">/</span>
+      <span>Tech Essentials</span>
+    </div>
+
+    <!-- Category Header -->
+    <div class="category-header">
+      <h1>Tech Essentials</h1>
+      <p>Core technology concepts explained simply</p>
+      <div class="category-count">
+        <span id="categoryCount">10</span> articles
+      </div>
+    </div>
+
+    <!-- Articles Grid -->
+    <div id="categoryGrid" class="article-grid" data-category="tech-essentials"></div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../common.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof injectHeader === 'function') injectHeader();
+      if (typeof injectFooter === 'function') injectFooter();
+      if (typeof initializeCategoryPage === 'function') initializeCategoryPage();
+    });
+  </script>
+</body>
+</html>

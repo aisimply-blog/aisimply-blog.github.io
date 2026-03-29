@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bases de l'IA | AISimply</title>
+  <meta name="description" content="Comprendre les fondamentaux de l'intelligence artificielle. Apprenez le machine learning, les réseaux de neurones, le NLP, la vision par ordinateur et plus.">
+  <meta name="canonical" href="https://aisimply-blog.github.io/fr/categories/ai-basics.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bases de l'IA | AISimply">
+  <meta property="og:description" content="Comprendre les fondamentaux de l'intelligence artificielle avec des articles pour débutants.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/fr/categories/ai-basics.html">
+  <meta property="og:image" content="https://aisimply-blog.github.io/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/categories/ai-basics.html">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/categories/ai-basics.html">
+  <link rel="alternate" hreflang="x-default" href="https://aisimply-blog.github.io/categories/ai-basics.html">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../../style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Bases de l'IA",
+    "description": "Comprendre les fondamentaux de l'intelligence artificielle",
+    "url": "https://aisimply-blog.github.io/fr/categories/ai-basics.html",
+    "inLanguage": "fr",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "AISimply",
+      "url": "https://aisimply-blog.github.io"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <main class="container category-page">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="../../index.html">Accueil</a>
+      <span class="separator">/</span>
+      <span>Bases de l'IA</span>
+    </div>
+
+    <!-- Category Header -->
+    <div class="category-header">
+      <h1>Bases de l'IA</h1>
+      <p>Comprendre les fondamentaux de l'intelligence artificielle</p>
+      <div class="category-count">
+        <span id="categoryCount">10</span> articles
+      </div>
+    </div>
+
+    <!-- Articles Grid -->
+    <div id="categoryGrid" class="article-grid" data-category="ai-basics"></div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../../common.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof injectHeader === 'function') injectHeader();
+      if (typeof injectFooter === 'function') injectFooter();
+      if (typeof initializeCategoryPage === 'function') initializeCategoryPage();
+    });
+  </script>
+</body>
+</html>

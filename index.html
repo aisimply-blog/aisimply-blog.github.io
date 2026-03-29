@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AISimply — AI & Tech Made Simple for Beginners</title>
+  <meta name="description" content="Understand artificial intelligence and technology without the jargon. Free guides, comparisons, and tutorials for complete beginners. Updated for 2026.">
+  <meta name="keywords" content="artificial intelligence for beginners, AI explained simply, learn AI, tech guides, AI tools comparison, how to use AI, machine learning basics">
+  <link rel="canonical" href="https://aisimply-blog.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AISimply — AI & Tech Made Simple">
+  <meta property="og:description" content="Understand artificial intelligence and technology without the jargon. Free guides, comparisons, and tutorials for beginners.">
+  <meta property="og:url" content="https://aisimply-blog.github.io/">
+  <meta property="og:site_name" content="AISimply">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AISimply — AI & Tech Made Simple">
+  <meta name="twitter:description" content="Understand artificial intelligence and technology without the jargon. Free guides and tutorials for beginners.">
+  <link rel="alternate" hreflang="en" href="https://aisimply-blog.github.io/">
+  <link rel="alternate" hreflang="fr" href="https://aisimply-blog.github.io/fr/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AISimply",
+    "url": "https://aisimply-blog.github.io/",
+    "description": "AI and technology explained in plain English for beginners",
+    "inLanguage": ["en", "fr"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://aisimply-blog.github.io/blog/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>AI & Tech <span class="hero-gradient">Made Simple</span></h1>
+      <p>No jargon. No hype. Just clear, beginner-friendly guides to help you understand and use artificial intelligence and modern technology.</p>
+      <div class="search-container">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="homeSearch" class="search-input" placeholder="Search articles..." autocomplete="off">
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="number" id="statArticles">50</span>
+          <span class="label">Articles</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number" id="statCategories">4</span>
+          <span class="label">Categories</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number">100%</span>
+          <span class="label">Free</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Filters -->
+  <div class="container">
+    <div class="category-filters">
+      <button class="category-btn active" data-category="all">All</button>
+      <button class="category-btn" data-category="ai-basics">&#129504; AI Basics</button>
+      <button class="category-btn" data-category="ai-tools">&#128736;&#65039; AI Tools</button>
+      <button class="category-btn" data-category="how-to">&#128214; How-To</button>
+      <button class="category-btn" data-category="tech-essentials">&#128161; Tech Essentials</button>
+    </div>
+  </div>
+
+  <!-- Featured Article -->
+  <div class="container">
+    <div id="featuredArticle"></div>
+  </div>
+
+  <!-- Article Grid -->
+  <section class="articles-section">
+    <div class="container">
+      <h2>Latest Articles</h2>
+      <div class="article-grid" id="articleGrid"></div>
+      <div style="text-align:center;margin-top:2rem;">
+        <a href="blog/index.html" class="btn-home">View All Articles &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="container">
+    <div class="newsletter-box">
+      <h3>Stay in the Loop</h3>
+      <p>Get notified when we publish new guides. No spam, unsubscribe anytime.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="your@email.com" aria-label="Email address">
+        <button type="button">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ad slot -->
+  <div class="container"><div class="ad-slot"><!-- AdSense ad unit --></div></div>
+
+  <script src="common.js"></script>
+</body>
+</html>
