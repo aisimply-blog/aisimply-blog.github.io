@@ -10,7 +10,7 @@
     tagline: 'AI & Tech Made Simple',
     taglineFr: "L'IA & la Tech en toute simplicit\u00e9",
     url: 'https://aisimply-blog.github.io',
-    coffee: 'https://buymeacoffee.com/aisimply'
+    coffee: 'https://buymeacoffee.com/toolpailot'
   };
 
   const CATEGORIES = {
