@@ -871,7 +871,7 @@
   /* ====== ADSENSE ====== */
   const ADSENSE = {
     enabled: true,
-    publisherId: 'ca-pub-XXXXXXXXXXXXXXXX', // Replace with real AdSense publisher ID
+    publisherId: 'ca-pub-8551172612233720',
     slots: {
       article_top:    '1234567890', // Replace with real ad slot IDs
       article_mid:    '1234567891',
@@ -881,7 +881,7 @@
   };
 
   function initAdSense() {
-    if (!ADSENSE.enabled || ADSENSE.publisherId === 'ca-pub-XXXXXXXXXXXXXXXX') return;
+    if (!ADSENSE.enabled || ADSENSE.publisherId.startsWith('ca-pub-XXX')) return;
 
     // Load AdSense script once
     if (!document.querySelector('script[src*="adsbygoogle"]')) {
