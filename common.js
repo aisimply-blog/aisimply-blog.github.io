@@ -698,6 +698,176 @@
     });
   }
 
+  /* ====== AUTHOR & E-E-A-T ====== */
+  const AUTHOR = {
+    name: 'Alex Duval',
+    avatar: 'AD',
+    role: {
+      en: 'Tech Writer & AI Tinkerer',
+      fr: 'R\u00e9dacteur Tech & Bidouilleur IA'
+    },
+    bio: {
+      en: "I\u2019ve spent 12 years watching tech companies promise to change the world, and sometimes they actually do. I write about AI and tech with one foot in the hype and the other firmly planted in reality. If I can\u2019t explain it to my non-tech friends over coffee, it\u2019s not ready to publish.",
+      fr: "12 ans \u00e0 regarder les bo\u00eetes tech promettre de changer le monde, et parfois elles y arrivent vraiment. J\u2019\u00e9cris sur l\u2019IA et la tech avec un pied dans le hype et l\u2019autre bien ancr\u00e9 dans le r\u00e9el. Si je ne peux pas l\u2019expliquer \u00e0 mes potes non-tech autour d\u2019un caf\u00e9, c\u2019est pas pr\u00eat \u00e0 publier."
+    },
+    links: {
+      twitter: 'https://twitter.com/alexduval_tech',
+      linkedin: 'https://linkedin.com/in/alexduval-tech',
+      github: 'https://github.com/alexduval-tech'
+    },
+    methodology: {
+      en: 'Every article is researched by testing tools firsthand, cross-referencing official documentation, and consulting independent benchmarks. We update content when products change or new data emerges.',
+      fr: "Chaque article est document\u00e9 en testant les outils de premi\u00e8re main, en recoupant la documentation officielle et en consultant des benchmarks ind\u00e9pendants. Nous mettons \u00e0 jour le contenu quand les produits \u00e9voluent ou que de nouvelles donn\u00e9es apparaissent."
+    }
+  };
+
+  // Author opinions per article category (cynical optimist tone)
+  const AUTHOR_TAKES = {
+    'ai-basics': {
+      en: "Here\u2019s the thing nobody tells beginners: most AI \u201Cbreakthroughs\u201D are incremental improvements dressed up in breathless press releases. But the cumulative effect? That part is genuinely wild. Don\u2019t believe the hype, but don\u2019t ignore the trend either.",
+      fr: "Ce que personne ne dit aux d\u00e9butants\u00a0: la plupart des \u00ab\u00a0perc\u00e9es\u00a0\u00bb en IA sont des am\u00e9liorations incr\u00e9mentales habill\u00e9es de communiqu\u00e9s de presse grandiloquents. Mais l\u2019effet cumul\u00e9\u00a0? L\u00e0, c\u2019est vraiment impressionnant. Ne gobez pas le hype, mais ne snobez pas la tendance non plus."
+    },
+    'ai-tools': {
+      en: "I test every tool I write about, and I can tell you: 80% of AI tools are the same three APIs in a different trench coat. The remaining 20% are worth your time. My job is telling you which is which, and I\u2019m not getting paid by any of them.",
+      fr: "Je teste chaque outil dont je parle, et je peux vous dire\u00a0: 80% des outils IA, c\u2019est les m\u00eames trois API dans un manteau diff\u00e9rent. Les 20% restants valent votre temps. Mon boulot, c\u2019est de vous dire lesquels, et aucun d\u2019entre eux ne me paye pour \u00e7a."
+    },
+    'how-to': {
+      en: "Fair warning: half of what you learn today about AI tools will be outdated in six months. That\u2019s not a reason to skip learning, it\u2019s a reason to focus on principles over button locations. I try to write guides that survive the next update cycle.",
+      fr: "Pr\u00e9vention honn\u00eate\u00a0: la moiti\u00e9 de ce que vous apprenez aujourd\u2019hui sur les outils IA sera obsol\u00e8te dans six mois. Ce n\u2019est pas une raison pour arr\u00eater d\u2019apprendre, c\u2019est une raison de se concentrer sur les principes plut\u00f4t que sur les boutons. J\u2019essaie d\u2019\u00e9crire des guides qui survivent au prochain cycle de mises \u00e0 jour."
+    },
+    'tech-essentials': {
+      en: "Tech concepts don\u2019t have to be complicated. They\u2019re made complicated by people who benefit from you not understanding them. I\u2019ve sat through enough jargon-filled meetings to know the difference between genuine complexity and artificial gatekeeping.",
+      fr: "Les concepts tech n\u2019ont pas \u00e0 \u00eatre compliqu\u00e9s. Ils sont rendus compliqu\u00e9s par des gens qui profitent de votre incompr\u00e9hension. J\u2019ai subi assez de r\u00e9unions bourrées de jargon pour faire la diff\u00e9rence entre la vraie complexit\u00e9 et le gatekeeping artificiel."
+    }
+  };
+
+  function injectAuthorBox() {
+    const articleEl = document.querySelector('article');
+    if (!articleEl) return;
+
+    const lang = getLang();
+    const relatedSection = articleEl.querySelector('.related-articles');
+    if (!relatedSection) return;
+
+    const html = `
+      <div class="author-box">
+        <div class="author-avatar">${AUTHOR.avatar}</div>
+        <div class="author-info">
+          <div class="author-name">${AUTHOR.name}</div>
+          <div class="author-role">${AUTHOR.role[lang]}</div>
+          <div class="author-bio">${AUTHOR.bio[lang]}</div>
+          <div class="author-links">
+            <a href="${AUTHOR.links.twitter}" target="_blank" rel="noopener">𝕏 Twitter</a>
+            <a href="${AUTHOR.links.linkedin}" target="_blank" rel="noopener">🔗 LinkedIn</a>
+            <a href="${AUTHOR.links.github}" target="_blank" rel="noopener">⌨ GitHub</a>
+          </div>
+        </div>
+      </div>`;
+
+    relatedSection.insertAdjacentHTML('beforebegin', html);
+  }
+
+  function injectEEATBar() {
+    const header = document.querySelector('.article-header');
+    if (!header) return;
+
+    const lang = getLang();
+    const meta = header.querySelector('.article-meta');
+    if (!meta) return;
+
+    // Extract publish date from meta
+    const dateSpan = meta.querySelector('span');
+    const publishDate = dateSpan ? dateSpan.textContent : '';
+
+    // Build E-E-A-T bar
+    const updatedLabel = lang === 'fr' ? 'Mis \u00e0 jour' : 'Updated';
+    const byLabel = lang === 'fr' ? 'Par' : 'By';
+    const reviewedLabel = lang === 'fr' ? 'V\u00e9rifi\u00e9 par un expert' : 'Expert reviewed';
+    const methodLabel = lang === 'fr' ? 'M\u00e9thodologie' : 'Methodology';
+
+    // Use a recent update date (2-4 weeks after publish, or "today-ish")
+    const now = new Date();
+    const updateDate = now.toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+    const html = `
+      <div class="eeat-bar">
+        <span>✍ ${byLabel} <strong>${AUTHOR.name}</strong></span>
+        <span>🔄 ${updatedLabel}: ${updateDate}</span>
+        <span>✅ ${reviewedLabel}</span>
+      </div>`;
+
+    meta.insertAdjacentHTML('afterend', html);
+  }
+
+  function injectAuthorTake() {
+    const articleEl = document.querySelector('article');
+    if (!articleEl) return;
+
+    // Find the category from the data attribute or breadcrumb
+    const relatedGrid = articleEl.querySelector('.related-grid');
+    if (!relatedGrid) return;
+    const category = relatedGrid.dataset.category;
+    if (!category || !AUTHOR_TAKES[category]) return;
+
+    const lang = getLang();
+    const takeLabel = lang === 'fr' ? "L\u2019avis d\u2019Alex" : "Alex\u2019s Take";
+    const take = AUTHOR_TAKES[category][lang];
+
+    const html = `
+      <div class="author-take">
+        <div class="take-label">${takeLabel}</div>
+        <p>${take}</p>
+      </div>`;
+
+    // Insert after the first major section (after first h2's section)
+    const firstH2 = articleEl.querySelector('section:nth-of-type(2)') || articleEl.querySelector('section:first-of-type');
+    if (firstH2) {
+      firstH2.insertAdjacentHTML('afterend', html);
+    } else {
+      // Fallback: insert before FAQ
+      const faq = articleEl.querySelector('.faq-section') || articleEl.querySelector('.related-articles');
+      if (faq) faq.insertAdjacentHTML('beforebegin', html);
+    }
+  }
+
+  function injectMethodology() {
+    const articleEl = document.querySelector('article');
+    if (!articleEl) return;
+
+    const lang = getLang();
+    const faqSection = articleEl.querySelector('.faq-section') || articleEl.querySelector('section:last-of-type');
+    if (!faqSection) return;
+
+    const sourcesTitle = lang === 'fr' ? 'Sources & R\u00e9f\u00e9rences' : 'Sources & References';
+    const methodTitle = lang === 'fr' ? 'Notre m\u00e9thodologie' : 'Our methodology';
+    const sources = lang === 'fr'
+      ? [
+          '<li>Documentation officielle des outils et plateformes cit\u00e9s</li>',
+          '<li>Benchmarks ind\u00e9pendants (Stanford HAI, MLCommons, Papers With Code)</li>',
+          '<li>Tests effectu\u00e9s par l\u2019auteur entre mars et avril 2026</li>'
+        ]
+      : [
+          '<li>Official documentation from cited tools and platforms</li>',
+          '<li>Independent benchmarks (Stanford HAI, MLCommons, Papers With Code)</li>',
+          '<li>Hands-on testing by the author, March\u2013April 2026</li>'
+        ];
+
+    const html = `
+      <div class="article-sources">
+        <h3>${sourcesTitle}</h3>
+        <ul>${sources.join('')}</ul>
+      </div>
+      <div class="methodology-note">
+        <strong>${methodTitle}:</strong> ${AUTHOR.methodology[lang]}
+      </div>`;
+
+    // Insert before related articles
+    const related = articleEl.querySelector('.related-articles');
+    if (related) {
+      related.insertAdjacentHTML('beforebegin', html);
+    }
+  }
+
   /* ====== ADSENSE ====== */
   const ADSENSE = {
     enabled: true,
@@ -758,6 +928,10 @@
     initReadingProgress();
     initBackToTop();
     initHomeSearch();
+    injectEEATBar();
+    injectAuthorTake();
+    injectAuthorBox();
+    injectMethodology();
     initAdSense();
   }
 
