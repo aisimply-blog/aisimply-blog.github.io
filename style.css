@@ -601,21 +601,15 @@ img { max-width: 100%; height: auto; }
 
 /* Ad slots */
 .ad-slot {
-  background: var(--bg-secondary);
-  border: 1px dashed var(--border);
-  border-radius: var(--radius-sm);
-  padding: 1rem;
   margin: 2rem 0;
   text-align: center;
   min-height: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  font-size: 0.8rem;
+  overflow: hidden;
 }
+.ad-slot .adsbygoogle { display: block; }
 /* Hide ad slots when AdSense is not active */
 .ad-slot:empty { display: none; }
+.ad-slot:has(> .adsbygoogle[data-ad-status="unfilled"]) { display: none; }
 
 /* Newsletter signup */
 .newsletter-box {

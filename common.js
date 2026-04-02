@@ -698,6 +698,53 @@
     });
   }
 
+  /* ====== ADSENSE ====== */
+  const ADSENSE = {
+    enabled: true,
+    publisherId: 'ca-pub-XXXXXXXXXXXXXXXX', // Replace with real AdSense publisher ID
+    slots: {
+      article_top:    '1234567890', // Replace with real ad slot IDs
+      article_mid:    '1234567891',
+      article_bottom: '1234567892',
+      sidebar:        '1234567893'
+    }
+  };
+
+  function initAdSense() {
+    if (!ADSENSE.enabled || ADSENSE.publisherId === 'ca-pub-XXXXXXXXXXXXXXXX') return;
+
+    // Load AdSense script once
+    if (!document.querySelector('script[src*="adsbygoogle"]')) {
+      const script = document.createElement('script');
+      script.async = true;
+      script.crossOrigin = 'anonymous';
+      script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE.publisherId}`;
+      document.head.appendChild(script);
+    }
+
+    // Fill each ad-slot div with an ad unit
+    const adSlots = document.querySelectorAll('.ad-slot');
+    adSlots.forEach((slot, index) => {
+      // Pick slot ID based on position
+      let slotId;
+      if (index === 0) slotId = ADSENSE.slots.article_top;
+      else if (index === adSlots.length - 1) slotId = ADSENSE.slots.article_bottom;
+      else slotId = ADSENSE.slots.article_mid;
+
+      slot.innerHTML = `
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="${ADSENSE.publisherId}"
+          data-ad-slot="${slotId}"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>`;
+
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch(e) { /* AdSense not loaded yet */ }
+    });
+  }
+
   /* ====== INIT ====== */
   function init() {
     initTheme();
@@ -711,6 +758,7 @@
     initReadingProgress();
     initBackToTop();
     initHomeSearch();
+    initAdSense();
   }
 
   if (document.readyState === 'loading') {
